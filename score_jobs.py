@@ -187,7 +187,7 @@ def main():
         else:
             # Both providers failed for this batch — fall back to
             # heuristics-only rather than leaving jobs stuck pending forever.
-            for job, (_, flags) in prepared:
+            for job, flags in prepared:
                 if flags:
                     job["score"], job["verdict"] = 20, "high risk"
                     job["reasons"] = [f"heuristic: {f}" for f in flags]
