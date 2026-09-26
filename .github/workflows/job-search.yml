@@ -1,0 +1,46 @@
+name: Job Search Automation
+
+on:
+  workflow_dispatch: {}   # lets you trigger a manual run from the Actions tab
+  schedule:
+    # GitHub Actions cron is UTC only. IST = UTC+5:30, so 9:00-14:00 IST
+    # maps to 03:30-08:30 UTC. Three entries cover every 30-min mark in
+    # that range (03:30, then every :00/:30 through 08:30).
+    - cron: '30 3 * * *'
+    - cron: '0,30 4-7 * * *'
+    - cron: '0,30 8 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-score:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch new postings
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+        run: python fetch_jobs.py
+
+      - name: Score postings for legitimacy
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python score_jobs.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "job-search-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/jobs.json
+          git diff --cached --quiet || git commit -m "Update job data [skip ci]"
+          git push

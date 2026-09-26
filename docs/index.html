@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Search Console</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #171a21; --border: #262b35;
+    --text: #e6e9ef; --muted: #8b93a3;
+    --good: #3ecf8e; --caution: #e8b93e; --risk: #e85d5d; --accent: #5b8cff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 24px;
+  }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+  .controls {
+    display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;
+  }
+  select, input {
+    background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    padding: 8px 10px; border-radius: 6px; font-size: 13px;
+  }
+  .grid { display: grid; gap: 12px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .card-top { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  .card-title { font-weight: 600; font-size: 15px; }
+  .card-meta { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .badge {
+    font-size: 11.5px; font-weight: 600; padding: 3px 9px; border-radius: 999px;
+    white-space: nowrap; height: fit-content;
+  }
+  .badge.good { background: rgba(62,207,142,.15); color: var(--good); }
+  .badge.caution { background: rgba(232,185,62,.15); color: var(--caution); }
+  .badge.risk { background: rgba(232,93,93,.15); color: var(--risk); }
+  .badge.pending { background: rgba(139,147,163,.15); color: var(--muted); }
+  .tag {
+    display: inline-block; font-size: 11px; color: var(--accent);
+    border: 1px solid var(--accent); border-radius: 4px; padding: 1px 6px; margin-right: 6px;
+  }
+  .reasons { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
+  .reasons ul { margin: 4px 0 0 18px; padding: 0; }
+  a.apply {
+    display: inline-block; margin-top: 10px; font-size: 12.5px; color: var(--accent);
+    text-decoration: none;
+  }
+  a.apply:hover { text-decoration: underline; }
+  .empty { color: var(--muted); text-align: center; padding: 60px 0; }
+</style>
+</head>
+<body>
+  <h1>Job Search Console</h1>
+  <div class="sub" id="last-updated">Loading…</div>
+
+  <div class="controls">
+    <select id="f-category">
+      <option value="">All categories</option>
+      <option value="core">Core cybersecurity</option>
+      <option value="adjacent">Adjacent roles</option>
+    </select>
+    <select id="f-role"><option value="">All roles</option></select>
+    <select id="f-city"><option value="">All cities</option></select>
+    <select id="f-minscore">
+      <option value="0">Any score</option>
+      <option value="70">Score ≥ 70 (likely legitimate)</option>
+      <option value="40">Score ≥ 40 (caution and above)</option>
+    </select>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">No postings match these filters yet.</div>
+
+<script>
+async function load() {
+  const res = await fetch('data/jobs.json', { cache: 'no-store' });
+  const jobs = await res.json();
+  render(jobs);
+}
+
+function verdictClass(score) {
+  if (score === null || score === undefined) return 'pending';
+  if (score >= 70) return 'good';
+  if (score >= 40) return 'caution';
+  return 'risk';
+}
+function verdictLabel(job) {
+  if (job.score === null || job.score === undefined) return 'Pending review';
+  return `${job.verdict || ''} (${job.score})`;
+}
+
+let ALL_JOBS = [];
+
+function populateFilters(jobs) {
+  const roles = [...new Map(jobs.map(j => [j.role_id, j.role_title])).entries()];
+  const cities = [...new Set(jobs.map(j => j.location))].sort();
+  const roleSel = document.getElementById('f-role');
+  roles.forEach(([id, title]) => {
+    const o = document.createElement('option'); o.value = id; o.textContent = title;
+    roleSel.appendChild(o);
+  });
+  const citySel = document.getElementById('f-city');
+  cities.forEach(c => {
+    const o = document.createElement('option'); o.value = c; o.textContent = c;
+    citySel.appendChild(o);
+  });
+}
+
+function applyFilters() {
+  const cat = document.getElementById('f-category').value;
+  const role = document.getElementById('f-role').value;
+  const city = document.getElementById('f-city').value;
+  const minScore = parseInt(document.getElementById('f-minscore').value, 10);
+
+  let filtered = ALL_JOBS.filter(j => {
+    if (cat && j.category !== cat) return false;
+    if (role && j.role_id !== role) return false;
+    if (city && j.location !== city) return false;
+    if (minScore > 0 && (j.score === null || j.score < minScore)) return false;
+    return true;
+  });
+
+  filtered.sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
+  renderGrid(filtered);
+}
+
+function renderGrid(jobs) {
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  grid.innerHTML = '';
+  empty.style.display = jobs.length ? 'none' : 'block';
+
+  jobs.forEach(j => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    const reasons = (j.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join('');
+    card.innerHTML = `
+      <div class="card-top">
+        <div>
+          <div class="card-title">${escapeHtml(j.title)}</div>
+          <div class="card-meta">${escapeHtml(j.company)} · ${escapeHtml(j.location)} · via ${escapeHtml(j.source)}</div>
+        </div>
+        <span class="badge ${verdictClass(j.score)}">${escapeHtml(verdictLabel(j))}</span>
+      </div>
+      <div style="margin-top:8px">
+        <span class="tag">${escapeHtml(j.role_title)}</span>
+        <span class="tag">${j.category === 'core' ? 'Core' : 'Adjacent'}</span>
+      </div>
+      ${reasons ? `<div class="reasons">Why: <ul>${reasons}</ul></div>` : ''}
+      <a class="apply" href="${j.url}" target="_blank" rel="noopener">Open posting →</a>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+function escapeHtml(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+['f-category','f-role','f-city','f-minscore'].forEach(id =>
+  document.getElementById(id).addEventListener('change', applyFilters)
+);
+
+load().then(() => {
+  document.getElementById('last-updated').textContent =
+    ALL_JOBS.length ? `${ALL_JOBS.length} postings tracked` : 'No postings fetched yet — waits for the first scheduled run.';
+});
+
+async function render(jobs) {
+  ALL_JOBS = jobs;
+  populateFilters(jobs);
+  applyFilters();
+  document.getElementById('last-updated').textContent = `${jobs.length} postings tracked`;
+}
+</script>
+</body>
+</html>
