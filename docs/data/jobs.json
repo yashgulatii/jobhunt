@@ -3892,5 +3892,93 @@
     "reasons": [
       "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Service Desk Analyst",
+    "company": "Genpact",
+    "location": "Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/land/ad/5897295888?se=nO5yAVe78RGTcuZ3r2Yb6w&utm_medium=api&utm_source=61450a73&v=F18C6E677F6C2C01E930801AC07B3765F16F8BE1",
+    "description": "Helpdesk Support Provide end-user support \u2013 responding to chats as well as tickets entered into the IT Help Desk System. Open, resolve and close tickets in the IT Help Desk System. Escalate issues to other IT groups as appropriate. Assist users with use of desktop operating systems and application software including, but not limited to, and subject to change: Desktop O/S \u2013 Windows / MacOS Microsoft Office (Outlook, Word, Excel, PowerPoint) Messaging support Mobile Device support Software specif\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-25T01:56:07Z",
+    "key": "8543b7c65b34158d",
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "matched_query": "Service Desk Analyst",
+    "fetched_at": "2026-09-28T16:09:38.965160+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Global Service Desk Analyst",
+    "company": "Broadway Malyan",
+    "location": "Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/land/ad/5897295188?se=nO5yAVe78RGTcuZ3r2Yb6w&utm_medium=api&utm_source=61450a73&v=C0BB9440CDBB2E7ACBE6DC79B5D7A698F327C005",
+    "description": "Who we are Broadway Malyan is a global architecture, urbanism and design practice dedicated to creating cities, buildings and places that will provide a lasting legacy. Through a shared design ethos, we work together to create places with a strong sense of identity where people and communities want to live, learn, shop, work and relax. As an employee-owned practice, we are able to create an inclusive culture where everyone has a strong sense of engagement and shared responsibility in the future\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-25T01:54:53Z",
+    "key": "2846bfe2374355b7",
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "matched_query": "Service Desk Analyst",
+    "fetched_at": "2026-09-28T16:09:38.965270+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Telecom Engineer",
+    "company": "Bloxtel",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/land/ad/5901560000?se=Sg1kAle78RG3HbWPlKe6Vw&utm_medium=api&utm_source=61450a73&v=84B068E1367BB17A84C8DE456B4140906FAE4FDF",
+    "description": "Our mission is to develop innovative building blocks that make high-quality connectivity more accessible and affordable to people and things in our planet. Simply put, we're solving world's persistent connectivity problem. Bloxtel's engineers develop the cutting-edge technologies that will change the way the next billion of devices will connected to mobile networks. Our products need to handle connectivity transactions at massive scale, and extend well beyond blockchain and telecom. We're looki\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T18:05:57Z",
+    "key": "e9801ad215282df9",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-09-28T16:09:41.137233+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "R&D Test Engineer",
+    "company": "ABB",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/land/ad/5894389914?se=Sg1kAle78RG3HbWPlKe6Vw&utm_medium=api&utm_source=61450a73&v=829EF7813A41C10807919FC90FBE5DF9BFD025A5",
+    "description": "This job is with ABB, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. At ABB, we help industries run leaner and cleaner\u2014and every person here makes that happen. You\u2019ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. This Position reports to: R&D Team Lead Your role and responsibilities : You will be joining as \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-23T04:30:57Z",
+    "key": "718e18617c87c0c9",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-09-28T16:09:41.137455+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
   }
 ]
