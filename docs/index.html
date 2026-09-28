@@ -6,7 +6,7 @@
 <title>Job Search Console</title>
 <style>
   :root {
-    --bg: #0f1115; --panel: #171a21; --border: #262b35;
+    --bg: #0f1115; --panel: #171a21; --panel2: #1d212b; --border: #262b35;
     --text: #e6e9ef; --muted: #8b93a3;
     --good: #3ecf8e; --caution: #e8b93e; --risk: #e85d5d; --accent: #5b8cff;
   }
@@ -14,22 +14,48 @@
   body {
     margin: 0; background: var(--bg); color: var(--text);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    padding: 24px;
+    padding: 20px; padding-top: max(20px, env(safe-area-inset-top));
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
   }
-  h1 { font-size: 20px; margin: 0 0 4px; }
-  .sub { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
-  .controls {
-    display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;
+  h1 { font-size: 20px; margin: 0 0 2px; }
+  .sub { color: var(--muted); font-size: 12.5px; margin-bottom: 16px; }
+
+  /* Stats bar */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; margin-bottom: 16px; }
+  .stat { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+  .stat .n { font-size: 20px; font-weight: 700; }
+  .stat .l { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .stat.good .n { color: var(--good); }
+  .stat.risk .n { color: var(--risk); }
+  .stat.accent .n { color: var(--accent); }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .tab {
+    background: var(--panel); border: 1px solid var(--border); color: var(--muted);
+    padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer; user-select: none;
   }
+  .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tab .count { opacity: .75; margin-left: 4px; }
+
+  /* Search + advanced filters */
+  .searchbar { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+  .searchbar input[type=text] { flex: 1; min-width: 160px; }
   select, input {
     background: var(--panel); border: 1px solid var(--border); color: var(--text);
     padding: 8px 10px; border-radius: 6px; font-size: 13px;
   }
+  .filters-toggle { color: var(--accent); font-size: 12.5px; cursor: pointer; margin-bottom: 10px; display: inline-block; }
+  .filters { display: none; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+  .filters.open { display: flex; }
+
   .grid { display: grid; gap: 12px; }
   .card {
     background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
-    padding: 14px 16px;
+    padding: 14px 16px; position: relative;
   }
+  .card.status-applied { border-color: var(--accent); }
+  .card.status-saved { border-left: 3px solid var(--caution); }
   .card-top { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
   .card-title { font-weight: 600; font-size: 15px; }
   .card-meta { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
@@ -47,24 +73,35 @@
   }
   .reasons { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
   .reasons ul { margin: 4px 0 0 18px; padding: 0; }
-  a.apply {
-    display: inline-block; margin-top: 10px; font-size: 12.5px; color: var(--accent);
-    text-decoration: none;
+  .card-actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; align-items: center; }
+  .card-actions a.apply {
+    font-size: 12.5px; color: var(--accent); text-decoration: none; font-weight: 600;
   }
-  a.apply:hover { text-decoration: underline; }
+  .card-actions a.apply:hover { text-decoration: underline; }
+  .action-btn {
+    font-size: 12px; padding: 5px 10px; border-radius: 6px; border: 1px solid var(--border);
+    background: var(--panel2); color: var(--muted); cursor: pointer;
+  }
+  .action-btn.on.save { background: rgba(232,185,62,.15); color: var(--caution); border-color: var(--caution); }
+  .action-btn.on.applied { background: rgba(91,140,255,.15); color: var(--accent); border-color: var(--accent); }
+  .action-btn.on.hide { background: rgba(232,93,93,.15); color: var(--risk); border-color: var(--risk); }
   .empty { color: var(--muted); text-align: center; padding: 60px 0; }
+  .empty a { color: var(--accent); }
 </style>
 </head>
 <body>
   <h1>Job Search Console</h1>
   <div class="sub" id="last-updated">Loading…</div>
 
-  <div class="controls">
-    <select id="f-category">
-      <option value="">All categories</option>
-      <option value="core">Core cybersecurity</option>
-      <option value="adjacent">Adjacent roles</option>
-    </select>
+  <div class="stats" id="stats"></div>
+
+  <div class="tabs" id="tabs"></div>
+
+  <div class="searchbar">
+    <input type="text" id="search" placeholder="Search title or company…">
+    <span class="filters-toggle" id="filters-toggle">More filters ▾</span>
+  </div>
+  <div class="filters" id="filters">
     <select id="f-role"><option value="">All roles</option></select>
     <select id="f-city"><option value="">All cities</option></select>
     <select id="f-minscore">
@@ -72,16 +109,66 @@
       <option value="70">Score ≥ 70 (likely legitimate)</option>
       <option value="40">Score ≥ 40 (caution and above)</option>
     </select>
+    <select id="f-sort">
+      <option value="score">Sort: highest score</option>
+      <option value="new">Sort: newest first</option>
+    </select>
   </div>
 
   <div class="grid" id="grid"></div>
-  <div class="empty" id="empty" style="display:none">No postings match these filters yet.</div>
+  <div class="empty" id="empty" style="display:none"></div>
 
 <script>
+const STATUS_KEY = 'jobtrack:v1';
+
+function loadStatuses() {
+  try { return JSON.parse(localStorage.getItem(STATUS_KEY) || '{}'); }
+  catch (e) { return {}; }
+}
+function saveStatuses(map) {
+  try { localStorage.setItem(STATUS_KEY, JSON.stringify(map)); } catch (e) {}
+}
+let STATUSES = loadStatuses();
+
+function setStatus(key, kind) {
+  // kind: 'saved' | 'applied' | 'hidden'. Clicking an already-active status clears it.
+  const current = STATUSES[key];
+  if (current === kind) {
+    delete STATUSES[key];
+  } else {
+    STATUSES[key] = kind;
+  }
+  saveStatuses(STATUSES);
+  applyFilters();
+}
+
+let ALL_JOBS = [];
+let ACTIVE_TAB = 'all';
+
 async function load() {
-  const res = await fetch('data/jobs.json', { cache: 'no-store' });
-  const jobs = await res.json();
-  render(jobs);
+  let jobs = [];
+  try {
+    const res = await fetch('data/jobs.json', { cache: 'no-store' });
+    jobs = await res.json();
+  } catch (e) {
+    jobs = [];
+  }
+  ALL_JOBS = jobs;
+  populateFilters(jobs);
+  renderTabs();
+  renderStats();
+  applyFilters();
+
+  if (jobs.length) {
+    const latest = jobs.reduce((a, b) => (a.fetched_at > b.fetched_at ? a : b));
+    const when = new Date(latest.fetched_at);
+    document.getElementById('last-updated').textContent =
+      `${jobs.length} postings tracked · last new posting fetched ${when.toLocaleString()}`;
+  } else {
+    document.getElementById('last-updated').innerHTML =
+      `No postings yet. If this stays empty after the scheduled run, check the ` +
+      `<a href="../../actions" style="color:var(--accent)">Actions logs</a> for errors.`;
+  }
 }
 
 function verdictClass(score) {
@@ -94,8 +181,6 @@ function verdictLabel(job) {
   if (job.score === null || job.score === undefined) return 'Pending review';
   return `${job.verdict || ''} (${job.score})`;
 }
-
-let ALL_JOBS = [];
 
 function populateFilters(jobs) {
   const roles = [...new Map(jobs.map(j => [j.role_id, j.role_title])).entries()];
@@ -112,33 +197,111 @@ function populateFilters(jobs) {
   });
 }
 
+function tabCounts(jobs) {
+  const notHidden = jobs.filter(j => STATUSES[j.key] !== 'hidden');
+  return {
+    all: notHidden.length,
+    core: notHidden.filter(j => j.category === 'core').length,
+    adjacent: notHidden.filter(j => j.category === 'adjacent').length,
+    pipeline: jobs.filter(j => STATUSES[j.key] === 'saved' || STATUSES[j.key] === 'applied').length,
+  };
+}
+
+function renderTabs() {
+  const counts = tabCounts(ALL_JOBS);
+  const defs = [
+    ['all', 'All'], ['core', 'Core cybersecurity'], ['adjacent', 'Adjacent'], ['pipeline', 'My pipeline'],
+  ];
+  const el = document.getElementById('tabs');
+  el.innerHTML = '';
+  defs.forEach(([id, label]) => {
+    const btn = document.createElement('div');
+    btn.className = 'tab' + (ACTIVE_TAB === id ? ' active' : '');
+    btn.innerHTML = `${label} <span class="count">${counts[id]}</span>`;
+    btn.onclick = () => { ACTIVE_TAB = id; renderTabs(); applyFilters(); };
+    el.appendChild(btn);
+  });
+}
+
+function renderStats() {
+  const jobs = ALL_JOBS.filter(j => STATUSES[j.key] !== 'hidden');
+  const scored = jobs.filter(j => j.score !== null && j.score !== undefined);
+  const good = scored.filter(j => j.score >= 70).length;
+  const applied = Object.values(STATUSES).filter(s => s === 'applied').length;
+  const today = new Date().toISOString().slice(0, 10);
+  const newToday = jobs.filter(j => (j.fetched_at || '').slice(0, 10) === today).length;
+
+  const stats = [
+    { n: jobs.length, l: 'Tracked', cls: '' },
+    { n: newToday, l: 'New today', cls: 'accent' },
+    { n: good, l: 'Likely legitimate', cls: 'good' },
+    { n: scored.length - good, l: 'Caution / risk', cls: 'risk' },
+    { n: applied, l: 'You applied', cls: 'accent' },
+  ];
+  const el = document.getElementById('stats');
+  el.innerHTML = stats.map(s => `
+    <div class="stat ${s.cls}"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>
+  `).join('');
+}
+
+document.getElementById('filters-toggle').addEventListener('click', () => {
+  const f = document.getElementById('filters');
+  f.classList.toggle('open');
+  document.getElementById('filters-toggle').textContent = f.classList.contains('open') ? 'Fewer filters ▴' : 'More filters ▾';
+});
+
 function applyFilters() {
-  const cat = document.getElementById('f-category').value;
+  const q = document.getElementById('search').value.trim().toLowerCase();
   const role = document.getElementById('f-role').value;
   const city = document.getElementById('f-city').value;
   const minScore = parseInt(document.getElementById('f-minscore').value, 10);
+  const sort = document.getElementById('f-sort').value;
 
   let filtered = ALL_JOBS.filter(j => {
-    if (cat && j.category !== cat) return false;
+    const status = STATUSES[j.key];
+    if (ACTIVE_TAB === 'pipeline') {
+      if (status !== 'saved' && status !== 'applied') return false;
+    } else {
+      if (status === 'hidden') return false;
+      if (ACTIVE_TAB === 'core' && j.category !== 'core') return false;
+      if (ACTIVE_TAB === 'adjacent' && j.category !== 'adjacent') return false;
+    }
     if (role && j.role_id !== role) return false;
     if (city && j.location !== city) return false;
-    if (minScore > 0 && (j.score === null || j.score < minScore)) return false;
+    if (minScore > 0 && (j.score === null || j.score === undefined || j.score < minScore)) return false;
+    if (q && !(`${j.title} ${j.company}`.toLowerCase().includes(q))) return false;
     return true;
   });
 
-  filtered.sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
+  if (sort === 'new') {
+    filtered.sort((a, b) => (b.fetched_at || '').localeCompare(a.fetched_at || ''));
+  } else {
+    filtered.sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
+  }
+
   renderGrid(filtered);
+  renderTabs();
+  renderStats();
 }
 
 function renderGrid(jobs) {
   const grid = document.getElementById('grid');
   const empty = document.getElementById('empty');
   grid.innerHTML = '';
-  empty.style.display = jobs.length ? 'none' : 'block';
+
+  if (!jobs.length) {
+    empty.style.display = 'block';
+    empty.textContent = ACTIVE_TAB === 'pipeline'
+      ? "Nothing saved or marked applied yet — use the ★ and ✓ buttons on a posting to track it here."
+      : "No postings match these filters.";
+    return;
+  }
+  empty.style.display = 'none';
 
   jobs.forEach(j => {
+    const status = STATUSES[j.key];
     const card = document.createElement('div');
-    card.className = 'card';
+    card.className = 'card' + (status === 'applied' ? ' status-applied' : status === 'saved' ? ' status-saved' : '');
     const reasons = (j.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join('');
     card.innerHTML = `
       <div class="card-top">
@@ -153,8 +316,16 @@ function renderGrid(jobs) {
         <span class="tag">${j.category === 'core' ? 'Core' : 'Adjacent'}</span>
       </div>
       ${reasons ? `<div class="reasons">Why: <ul>${reasons}</ul></div>` : ''}
-      <a class="apply" href="${j.url}" target="_blank" rel="noopener">Open posting →</a>
+      <div class="card-actions">
+        <a class="apply" href="${j.url}" target="_blank" rel="noopener">Open posting →</a>
+        <button class="action-btn save ${status === 'saved' ? 'on' : ''}" data-act="saved">★ Save</button>
+        <button class="action-btn applied ${status === 'applied' ? 'on' : ''}" data-act="applied">✓ Applied</button>
+        <button class="action-btn hide ${status === 'hidden' ? 'on' : ''}" data-act="hidden">✕ Hide</button>
+      </div>
     `;
+    card.querySelectorAll('.action-btn').forEach(btn => {
+      btn.addEventListener('click', () => setStatus(j.key, btn.dataset.act));
+    });
     grid.appendChild(card);
   });
 }
@@ -163,21 +334,12 @@ function escapeHtml(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-['f-category','f-role','f-city','f-minscore'].forEach(id =>
+['f-role','f-city','f-minscore','f-sort'].forEach(id =>
   document.getElementById(id).addEventListener('change', applyFilters)
 );
+document.getElementById('search').addEventListener('input', applyFilters);
 
-load().then(() => {
-  document.getElementById('last-updated').textContent =
-    ALL_JOBS.length ? `${ALL_JOBS.length} postings tracked` : 'No postings fetched yet — waits for the first scheduled run.';
-});
-
-async function render(jobs) {
-  ALL_JOBS = jobs;
-  populateFilters(jobs);
-  applyFilters();
-  document.getElementById('last-updated').textContent = `${jobs.length} postings tracked`;
-}
+load();
 </script>
 </body>
 </html>

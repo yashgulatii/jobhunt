@@ -37,10 +37,13 @@ JOOBLE_API_KEY = os.environ.get("JOOBLE_API_KEY")
 
 N_BUCKETS = 11
 
+YR = r"(?:years?|yrs?|yr)"  # covers "years", "year", "yrs", "yr"
+
 YEARS_PATTERNS = [
-    re.compile(r"(\d+)\s*(?:-|to)\s*\d+\s*\+?\s*years?", re.I),
-    re.compile(r"(\d+)\s*\+\s*years?", re.I),
-    re.compile(r"(?:minimum|at least)\s*(?:of\s*)?(\d+)\s*years?", re.I),
+    re.compile(rf"(\d+)\s*(?:-|to|–)\s*\d+\s*\+?\s*{YR}", re.I),      # "2-5 years", "2 to 5 yrs"
+    re.compile(rf"(\d+)\s*\+\s*{YR}", re.I),                          # "3+ yrs"
+    re.compile(rf"(?:minimum|min\.?|at least)\s*(?:of\s*)?(\d+)\s*{YR}", re.I),  # "min. 2 yrs"
+    re.compile(rf"\bexp(?:erience)?\W{{0,4}}(\d+)\s*(?:-|to|–)?\s*\d*\+?\s*{YR}?", re.I),  # "Exp: 2-5 Yrs", "Experience - 3 Years"
 ]
 
 
