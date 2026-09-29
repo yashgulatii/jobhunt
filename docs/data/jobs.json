@@ -4310,5 +4310,159 @@
     "reasons": [
       "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "ISIM Security Consultant",
+    "company": "IBM",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/land/ad/5896613578?se=2H6sOfC78RGpps7V-erNsQ&utm_medium=api&utm_source=61450a73&v=B7ADC6FF776B852B9738E1DCCF84A3DAA21645C1",
+    "description": "Job Description: Location: PAN India Skills: IBM Security Identity Manager (ISIM), IBM Security Directory Integrator (ISDI), IBM Security Verify Access (ISVA), IBM DB2, IBM Security Directory Server (ISDS), Java - Should be experienced in end-to-end installation and configuration of ISIM, DB2, ISDS, ISDI - Should have experience in DR set ups and execution for these products. - Should have experience in Custom Adapter Development for ISIM Adapters using ISDI. - Should have experience in writing\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-24T15:18:19Z",
+    "key": "361575a37568f3c9",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Security Consultant",
+    "fetched_at": "2026-09-29T10:26:26.466749+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Network Server Administrator",
+    "company": "Tata Advanced Systems Limited",
+    "location": "Devanahalli, Bangalore Rural",
+    "url": "https://www.adzuna.in/land/ad/5900875373?se=Ph30PfC78RGsapmCK03uFQ&utm_medium=api&utm_source=61450a73&v=2F712D60EDF6F44DEA9918A0420FD735C1BFB607",
+    "description": "About Tata Advanced Systems Limited (TASL) Tata Advanced Systems Limited (TASL), a wholly owned subsidiary of Tata Sons, is a significant player in aerospace and defence solutions in India. Tata Advanced Systems offers a comprehensive range of integrated solutions across Aerostructures & Aeroengines, Airborne Platforms & Systems, Defence & Security, and Land Mobility . With the requisite capabilities, resources and scale, Tata Advanced Systems is equipped to deliver end-to-end solutions across \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T02:01:17Z",
+    "key": "671389ba989fe400",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-09-29T10:26:33.754833+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Ai and IT specialist",
+    "company": "iThink Media",
+    "location": "Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/land/ad/5900616206?se=Ph30PfC78RGsapmCK03uFQ&utm_medium=api&utm_source=61450a73&v=258B981FE73F2F0B1EA00329F89273C751A8E087",
+    "description": "Company Description iThink Media is an independent advertising agency based in Mumbai, focused on delivering real visibility and measurable results for brands. Originally specialized in Out-of-Home advertising, the company has evolved into a full 360-degree media agency, offering outdoor, digital, activations, and end-to-end brand strategy. iThink Media is distinguished by its data-driven planning, using insights and performance tracking to help brands spend smarter and achieve better outcomes \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-27T18:06:28Z",
+    "key": "ed58082ef91997d5",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-09-29T10:26:33.754960+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Oracle Database Administrator",
+    "company": "Huxley",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5898128076?se=Ph30PfC78RGsapmCK03uFQ&utm_medium=api&utm_source=61450a73&v=C2C55483E441D845A9205817A472C7033128CFD2",
+    "description": "Overview Join a cloud infrastructure organization responsible for delivering enterprise-grade database services and platform capabilities to internal engineering teams. The team operates and enhances large-scale database environments that support critical business applications, while driving modernization, automation, and cloud adoption initiatives. This role is focused on Oracle database platform engineering, administration, performance optimization, high availability, and cloud migration proj\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-25T15:22:58Z",
+    "key": "13fe5dfc31793892",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-09-29T10:26:33.755176+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Network Security Engineer",
+    "company": "QpiAI",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/land/ad/5897296625?se=Ph30PfC78RGsapmCK03uFQ&utm_medium=api&utm_source=61450a73&v=B345B1ED6F4373F4DC90EFFD716720359340148E",
+    "description": "About QPIAI India Pvt. Ltd. QPIAI India Pvt. Ltd. is a next-generation technology company focused on Artificial Intelligence, Quantum Computing, and advanced IT innovation. At QPIAI, we believe that great ideas grow in the right environment. Our culture is built on flexibility, collaboration, and continuous learning, supported by a strong commitment to employee well-being and work\u2013life balance. We provide a workplace that encourages creativity, fosters professional growth, and empowers people t\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-25T01:59:26Z",
+    "key": "41686ca4302d48bf",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-09-29T10:26:33.755245+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Level 2 Support \u2013 Cloud & Coding Labs",
+    "company": "Saras AI Institute",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5898129390?se=Ph30PfC78RGsapmCK03uFQ&utm_medium=api&utm_source=61450a73&v=007897B74D6F084C9BB848EABCDCAA2E3200AC70",
+    "description": "Lab Administrator/Level 2 Support \u2013 Cloud & Coding Labs - Remote Job Description A technically strong Level 2 Lab Support Engineer is being sought to set up, manage, support, and troubleshoot cloud-based learning labs for an institute such as Saras AI. The role focuses on provisioning and maintaining coding environments (Python, cloud sandboxes, Codio-style platforms), supporting students and instructors during lab sessions, resolving lab access and environment issues, enabling AI code-generati\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-25T15:23:47Z",
+    "key": "d71c47e537f8e7b1",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-09-29T10:26:33.755315+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Cloud Support Engineer",
+    "company": "ZenoCloud",
+    "location": "Noida, Ghaziabad",
+    "url": "https://www.adzuna.in/land/ad/5900616434?se=Ph30PfC78RGsapmCK03uFQ&utm_medium=api&utm_source=61450a73&v=5C00DEA8FD8153C3B9C504A7462FE2D0E4F093BD",
+    "description": "Location: Noida Job Type: Full-Time Industry: Web Hosting / Cloud Infrastructure / SaaS About the Role We are looking for an experienced and self-driven Senior Cloud Support Engineer to maintain, optimize, and scale production infrastructure for our global enterprise clients. In this role, you will act as a senior technical escalation point, driving infrastructure reliability, troubleshooting complex distributed system issues, and executing cloud migrations. The ideal candidate brings deep oper\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-27T18:07:31Z",
+    "key": "cd4a17bee9a7f710",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-09-29T10:26:33.755372+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
   }
 ]
