@@ -7280,5 +7280,291 @@
     "reasons": [
       "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Security Consultant | Remote role (India Requirement)",
+    "company": "Xlysi",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5904039916?utm_medium=api&utm_source=61450a73",
+    "description": "Security Consultant Remote role (India Requirement) These will be more hands-on implementation roles supporting the architecture and deployment. Expected duration is approximately 12 months. They should have good experience with the Microsoft security stack and preferably exposure to Proofpoint / CyberArk / ManageEngine / Sentinel.",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T21:12:33Z",
+    "key": "920ec97a65d0b033",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Security Consultant",
+    "fetched_at": "2026-10-01T10:45:13.184313+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "GRC Analyst",
+    "company": "ValueMentor",
+    "location": "Mukundapuram, Thrissur",
+    "url": "https://www.adzuna.in/details/5902280345?utm_medium=api&utm_source=61450a73",
+    "description": "Key Responsibilities As a GRC Analyst, you will support the customer organization\u2019s governance, risk, and compliance initiatives, helping maintain a secure and compliant environment. Working closely with cross-functional teams, you will assist in ensuring compliance with industry standards and the development of risk management frameworks: Support the implementation and maintenance of ISO 27001:2022 standards by assisting in ensuring compliance with security controls and helping prepare for int\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-29T07:57:28Z",
+    "key": "43d8cb4b41946e70",
+    "role_id": "grc",
+    "role_title": "GRC / Compliance Analyst",
+    "category": "core",
+    "matched_query": "GRC Analyst",
+    "fetched_at": "2026-10-01T10:45:15.636834+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IT GRC Analyst",
+    "company": "Albemarle",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5904036903?utm_medium=api&utm_source=61450a73",
+    "description": "Be an essential element to a brighter future. We work together to transform essential resources into critical ingredients for mobility, energy, connectivity and health. Join our values-led organization committed to building a more resilient world with people and planet in mind. Our core values are the foundation that make us successful for ourselves, our customers and the planet. Job Description Job Description We work together to transform essential resources into critical ingredients for mobi\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T21:09:13Z",
+    "key": "717a22950cba36c0",
+    "role_id": "grc",
+    "role_title": "GRC / Compliance Analyst",
+    "category": "core",
+    "matched_query": "GRC Analyst",
+    "fetched_at": "2026-10-01T10:45:15.637125+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Analyst, Network Operations",
+    "company": "ICE",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5902729798?utm_medium=api&utm_source=61450a73",
+    "description": "Job Purpose Network Operations provides 24x7 support for the organization\u2019s global production network infrastructure by performing proactive routines that ensure service impacts are avoided. Staff members also interact with peers in Operations and Engineering to facilitate effective handling of service requests and connectivity issues. Responsibilities Incident Management Proactive checkouts and monitoring to avoid service outages or limit their impact. Escalation for troubleshooting and fault \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-29T16:18:24Z",
+    "key": "e065bc0cc7c9030c",
+    "role_id": "noc",
+    "role_title": "NOC Engineer",
+    "category": "adjacent",
+    "matched_query": "Network Operations Analyst",
+    "fetched_at": "2026-10-01T10:45:18.615920+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Specialist Work Center Tech Supt -Tier 2.5 Network Operations Center (NOC) Engineer",
+    "company": "AT&T",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5904944500?utm_medium=api&utm_source=61450a73",
+    "description": "Network Operations Center (NOC) Engineer - Tier 2.5 Job Summary We are seeking a highly skilled and customer-focused Tier 2.5 Network Operations Center (NOC) Engineer to join our Network Operations team. This role is responsible for monitoring, troubleshooting, and resolving complex network issues impacting business and consumer customers. The engineer will work closely with cross-functional teams to ensure network stability, availability, and performance while delivering exceptional technical \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T11:31:00Z",
+    "key": "3fc1993c0ac45ef3",
+    "role_id": "noc",
+    "role_title": "NOC Engineer",
+    "category": "adjacent",
+    "matched_query": "Network Operations Analyst",
+    "fetched_at": "2026-10-01T10:45:18.616015+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Service Desk Analyst | Pune",
+    "company": "TransPerfect",
+    "location": "Pune, Maharashtra",
+    "url": "https://www.adzuna.in/details/5903330146?utm_medium=api&utm_source=61450a73",
+    "description": "OVERVIEW Under general supervision, in a 24/7 online Service Desk (Semi-Technical), the Service Desk Analyst will assist Customers by performing the tasks requested through assigned Service Request, Incident, and Changes, with detailed analysis and guiding users through step-by-step solutions. Solutions may include but are not limited to setting up a requested workspace, modules, features, configuration validation, user access administration, analyzing user environment scenarios, application-re\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T08:09:31Z",
+    "key": "25d3765d712925cc",
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "matched_query": "Service Desk Analyst",
+    "fetched_at": "2026-10-01T10:45:20.296061+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Rest Assured API testing, Selenium, Playwright - Software Engineer in Test",
+    "company": "NTT America, Inc.",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5903558832?utm_medium=api&utm_source=61450a73",
+    "description": "Req ID: 391352 NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now. We are currently seeking a Rest Assured API testing, Selenium, Playwright - Software Engineer in Test to join our team in Bangalore, Karnataka (IN-KA), India (IN). Rest Assured API testing, Selenium, Playwright - Software Engineer in Test FMRJP00039909 - SWET- Software Engineer in Tes\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T11:40:43Z",
+    "key": "216aac609a7445c2",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-10-01T10:45:22.220507+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Systems/Software Engineer - Performance Test and Analysis",
+    "company": "Hewlett Packard Enterprise",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5904032327?utm_medium=api&utm_source=61450a73",
+    "description": "Systems/Software Engineer - Performance Test and Analysis This role has been designed as \u2018\u2019Onsite\u2019 with an expectation that you will primarily work from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today\u2019s complex w\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T21:07:04Z",
+    "key": "f5fb737970313dad",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-10-01T10:45:22.220609+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "SDET",
+    "company": "ascendion",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5903326122?utm_medium=api&utm_source=61450a73",
+    "description": "About the Role' 'Job Title': Python SDET (Software Development Engineer in Test \u2013 Python) 'Responsibilities': Write Python scripts for test automation. Automate functional, regression, API, and integration testing. Work with tools like Selenium, Playwright, Pytest. Test APIs using tools/libraries such as Requests. Build and maintain automation frameworks. Integrate automated tests with CI/CD tools such as Jenkins, GitHub Actions, etc. Identify bugs and work with developers to fix them. Generate\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T08:06:31Z",
+    "key": "4a1827af82183c5e",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-10-01T10:45:22.220895+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Systems/Software Engineer- Software Update QA",
+    "company": "Hewlett Packard Enterprise",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5904038918?utm_medium=api&utm_source=61450a73",
+    "description": "Systems/Software Engineer- Software Update QA This role has been designed as \u2018\u2019Onsite\u2019 with an expectation that you will primarily work from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today\u2019s complex world. Our cu\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T21:11:16Z",
+    "key": "e013c49a9e865fa0",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-10-01T10:45:22.221104+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "SDET Engineer",
+    "company": "Fortanix",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5903790235?utm_medium=api&utm_source=61450a73",
+    "description": "About Fortanix: In today's world, where data spreads across various clouds and devices, traditional security measures aren't enough. Businesses need a dynamic approach to defend against constant cyber threats and ensure agile data security. Fortanix leads the way in data-centric cybersecurity for hybrid multicloud environments, using advanced cryptography, encryption, and confidential AI solutions. As data breaches become more frequent and traditional defenses fall short, we focus on data expos\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T16:17:43Z",
+    "key": "8af72648074b037b",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-10-01T10:45:22.221168+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "QA Engineer",
+    "company": "ascendion",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5903326143?utm_medium=api&utm_source=61450a73",
+    "description": "Staff AI Quality Engineer \u2014 About The Role As a Staff AI Quality Engineer -you will lead the technical test strategy and architectural validation for Lenovo's cross-device agentic AI ecosystem. You will serve as the technical authority on evaluating non-deterministic systems, designing automated quality platforms that operate across personal computing form factors (PCs, tablets, and smartphones). You will drive non-functional quality standards\u2014ensuring that privacy, security, accessibility, int\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T08:06:31Z",
+    "key": "72f375652f9c8f51",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-10-01T10:45:22.221303+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Data Engineer ID89384",
+    "company": "AgileEngine",
+    "location": "Richmond Town, Bangalore",
+    "url": "https://www.adzuna.in/details/5902067778?utm_medium=api&utm_source=61450a73",
+    "description": "We are looking for a Data Engineer with strong Databricks and GCP experience to build scalable ETL/ELT pipelines and productionize agentic workflows for data engineering automation. The mandatory requirements are 5 years of hands-on Databricks and PySpark experience, advanced SQL skills, strong GCP and BigQuery knowledge, and experience with Delta Lake and lakehouse architectures. RECRUITMENT PROCESS 1. Application \u2014 Share a few details about your experience and background. 2. Coding Challenge \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-29T06:49:05Z",
+    "key": "c82eeb243ad68519",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "Software Test Engineer",
+    "fetched_at": "2026-10-01T10:45:22.221373+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
   }
 ]
