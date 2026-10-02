@@ -8138,5 +8138,203 @@
     "reasons": [
       "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Infrastructure & Network Analyst",
+    "company": "Control Risks",
+    "location": "New Delhi, Delhi",
+    "url": "https://www.adzuna.in/details/5905433727?utm_medium=api&utm_source=61450a73",
+    "description": "Develop, test, operate, monitor, manage, and support IT services using a collection of hardware, software, data centre, cloud platforms, identity services, server infrastructure, and enterprise technologies. This role will primarily focus on Azure cloud infrastructure, Active Directory, Microsoft Entra ID, Windows Server platforms, virtualization, security, and infrastructure operations. The analyst will be responsible for identifying and remediating day-to-day infrastructure issues, supporting\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T16:27:17Z",
+    "key": "e8358b825a64f814",
+    "role_id": "soc-analyst",
+    "role_title": "SOC Analyst",
+    "category": "core",
+    "matched_query": "Security Operations Analyst",
+    "fetched_at": "2026-10-02T10:19:57.433760+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Security Consultant-Application Security",
+    "company": "IBM",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5907465244?utm_medium=api&utm_source=61450a73",
+    "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and crea\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T11:16:30Z",
+    "key": "a998161c63f52b8f",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Security Consultant",
+    "fetched_at": "2026-10-02T10:19:59.323641+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Oracle Cloud Security Consultant",
+    "company": "Alithya",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5905877760?utm_medium=api&utm_source=61450a73",
+    "description": "Description Your role, your impact As an Oracle Cloud Security Consultant, you\u2019ll play a critical role in designing, implementing, and managing security controls and risk mitigation strategies across Oracle Cloud applications. You\u2019ll leverage your expertise in Oracle Cloud Security, role-based access control (RBAC) , role design, custom controls, Segregation of Duties (SoD), Identity and Access Management (IAM), and Oracle Risk Management to safeguard enterprise data and systems while supportin\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T21:06:49Z",
+    "key": "1ba4f47a23a772e6",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Security Consultant",
+    "fetched_at": "2026-10-02T10:19:59.323829+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Security Consultant-AI-Driven Threat Management",
+    "company": "IBM",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5907465265?utm_medium=api&utm_source=61450a73",
+    "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and crea\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T11:16:30Z",
+    "key": "b53dc77a552493f9",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Security Consultant",
+    "fetched_at": "2026-10-02T10:19:59.323949+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "DevOps Consultant",
+    "company": "viraaj hr solutions",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5906872063?utm_medium=api&utm_source=61450a73",
+    "description": "About the Opportunity A growing technology consultancy firm operating in the DevOps & Cloud Engineering space, we enable enterprises across India to transform legacy infrastructures into scalable, automated, and secure modern platforms. Our consultants partner with clients to implement CI/CD pipelines, infrastructure-as-code, monitoring ecosystems, and cloud-native deployment strategies\u2014driving agility, reliability, and measurable DevOps maturity. Role & Responsibilities Design, deploy, and man\u2026",
+    "salary_min": 1000000,
+    "salary_max": 3000000,
+    "posted": "2026-10-02T07:53:56Z",
+    "key": "2308f09967af72b3",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Security Consultant",
+    "fetched_at": "2026-10-02T10:19:59.324451+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Mainframe z/OS System Programmer",
+    "company": "Kyndryl",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5905062635?se=6kbs1kq-8RG__JxGiFSfCg&utm_medium=api&utm_source=61450a73&v=74E1EF4378B4A382646F1904DF2B34EE8CCBB54A",
+    "description": "This job is with Kyndryl, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world's leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster innovation, and a lasting competitive edg\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T12:36:03Z",
+    "key": "df66c129f9620ac5",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-10-02T10:20:07.400193+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Infra Tech Support Practitioner",
+    "company": "Accenture",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5905899530?utm_medium=api&utm_source=61450a73",
+    "description": "Project Role : Infra Tech Support Practitioner Project Role Description : Provide ongoing technical support and maintenance of production and development systems and software products (both remote and onsite) and for configured services running on various platforms (operating within a defined operating model and processes). Provide hardware/software support and implement technology at the operating system-level across all server and network areas, and for particular software solutions/vendors/b\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T21:18:15Z",
+    "key": "afa245b8d1556c05",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-10-02T10:20:07.400820+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IT Executive - Hilton and Hilton Garden Inn Bengaluru Embassy Manyata Business Park",
+    "company": "Hilton",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5907464206?utm_medium=api&utm_source=61450a73",
+    "description": "Job Identification: 224683 Job Category: Technology Job Schedule: Full time Exceptional Hospitality Starts with You Picture yourself brightening someone's day. When you join our Hotels team, that's exactly what you'll do every time you come to work! You will support the design, implementation, and maintainance of robust IT systems to enhance guest experiences and streamline operations. As an IT Executive , and services across multiple sites - you're spreading the light and warmth of hospitality\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T11:16:16Z",
+    "key": "a849a0cc78ee42c0",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-10-02T10:20:07.401120+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IT Executive - Hilton and Hilton Garden Inn Bengaluru Embassy Manyata Business Park",
+    "company": "Hilton",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5907464204?utm_medium=api&utm_source=61450a73",
+    "description": "Job Identification: 224683 Job Category: Technology Job Schedule: Full time Exceptional Hospitality Starts with You Picture yourself brightening someone's day. When you join our Hotels team, that's exactly what you'll do every time you come to work! You will support the design, implementation, and maintainance of robust IT systems to enhance guest experiences and streamline operations. As an IT Executive , and services across multiple sites - you're spreading the light and warmth of hospitality\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T11:16:16Z",
+    "key": "ca58213d81b368dc",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-10-02T10:20:07.401184+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
   }
 ]
