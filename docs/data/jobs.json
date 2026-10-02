@@ -7896,5 +7896,247 @@
     "reasons": [
       "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Penetration Testing",
+    "company": "Jobgether",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5905924077?utm_medium=api&utm_source=61450a73",
+    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Penetration Testing professional based in India. This remote role offers the opportunity to conduct hands-on security assessments across web applications, APIs, networks, and cloud environments. You will independently execute penetration testing engagements, identify vulnerabilities, and demonstrate their real-world impact through practical proof-of-concepts. The pos\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T21:31:24Z",
+    "key": "a8a37afe2cd4e09e",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-02T09:58:19.513073+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Security Engineer II (Offensive)",
+    "company": "Flywire",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5907315094?utm_medium=api&utm_source=61450a73",
+    "description": "Job Description Job Summary: As a Security Engineer II on the Active Operational Defender track you will build hands on experience across penetration testing, threat detection and incident response, working under the direction of senior and lead engineers. You will support live operational work within a high velocity fintech environment, developing the manual testing and detection engineering skills needed to take on more independent responsibility over time. Responsibilities and Tasks: 1. Offe\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T10:14:21Z",
+    "key": "18646c38974d3d1e",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-02T09:58:19.513460+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Strategic Account Executive, Financial Institutions, Brazil",
+    "company": "CertiK",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5905420579?utm_medium=api&utm_source=61450a73",
+    "description": "About CertiK Born from groundbreaking research at Columbia and Yale, CertiK has grown to become the largest Web3 security platform, combining proprietary models with comprehensive security solutions and end-to-end toolkits to support the full lifecycle of Web3 development. Founded in 2017 and headquartered in New York City, CertiK provides a wide range of services including smart contract audits, penetration testing, on-chain monitoring, incident response, and compliance solutions for some of t\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T16:25:26Z",
+    "key": "f91c791f5179fd14",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-02T09:58:19.513529+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Associate - Security Test Engineer",
+    "company": "BNP Paribas",
+    "location": "Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/details/5901762410?utm_medium=api&utm_source=61450a73",
+    "description": "Job Title: Security Test Engineer Department : ITG CDF About Business line/Function: ITG provides testing services for the BNP Paribas Group. The Security testing team is responsible for executing SAST, Penetration Tests (Black or Gray Box) for the Web and Mobile applications pertaining to the group. Position Purpose: The purpose of the position is to help with the Mobile security testing activities mentioned in the direct responsibilities. Responsibilities Direct Responsibilities To perform Pe\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T22:44:41Z",
+    "key": "eb0af1ef1e4c1b02",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-02T09:58:19.513648+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "QA Engineer",
+    "company": "Stolt-Nielsen Digital Innovation Centre",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5903531826?utm_medium=api&utm_source=61450a73",
+    "description": "About the Role: The QA - Test Automation Engineer plays a critical role in ensuring the quality and reliability of scalable software systems that drive our business. Across our businesses, our applications run business critical processes. Quality is paramount and testing critical. We want to further invest in our test automation practices, in line with the shift-left paradigm and DevOps practices. We have three main technology stacks: .NET / Angular; Node.js / Angular and Low Code (Out Systems)\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T11:33:58Z",
+    "key": "b9408d02021b05fa",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-02T09:58:28.492186+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "QA Engineer",
+    "company": "ascendion",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5903326114?utm_medium=api&utm_source=61450a73",
+    "description": "Senior AI Quality Engineer \u2014 About The Role As a Senior AI Quality Engineer-, you will be responsible for the quality, reliability, and automated validation of next-generation on-device and hybrid AI agent experiences. Qira integrates intelligence directly into PCs, tablets, and mobile devices, requiring validation that extends beyond conventional functional testing. In this role, you will design test suites that evaluate non-deterministic agent workflows, build multi-device test automation fra\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T08:06:31Z",
+    "key": "1e66fcf0ae03c2b4",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-02T09:58:28.492326+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "QA Engineer",
+    "company": "EXL",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5904038393?utm_medium=api&utm_source=61450a73",
+    "description": "Description Roles & Responsibilities: The Lead Data Analyst's primary responsibility is to deliver Business Insights & Product Insights through data analysis. Act as a subject matter expert for the team/clients in designing and recommending the appropriate business approaches and methodology in addressing key business issues. Business research & experiment, development, and implementation of appropriate process / systems that lead to improved business performance through identifying the opportu\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T21:10:51Z",
+    "key": "809c17f16a99e2ca",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-02T09:58:28.493066+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "QA Engineer-Automation",
+    "company": "Gainserv Infotech Pvt Ltd",
+    "location": "Surat, Gujarat",
+    "url": "https://www.adzuna.in/details/5906872025?utm_medium=api&utm_source=61450a73",
+    "description": "We\u2019re Hiring: Automation QA Engineer At Gainserv , we are building scalable, high-performance, and intelligent digital solutions that drive real business impact. If you\u2019re passionate for AI-driven systems, and solving complex product challenges \u2014 we\u2019d love to connect with you. For more information you can visit our website www.uzera.com. Job Summary We are seeking a skilled Automation QA Engineer to design, develop, and maintain automated testing solutions for web applications built using .NET,\u2026",
+    "salary_min": 500000,
+    "salary_max": 800000,
+    "posted": "2026-10-02T07:53:55Z",
+    "key": "0dbc8dc766010591",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-02T09:58:28.493177+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Software QA Engineer",
+    "company": "Renesas Electronics",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5904773415?utm_medium=api&utm_source=61450a73",
+    "description": "Job Description Renesas is hiring a Software QA Engineer with strong software and hardware testing experience to work with hands-on automated and manual testing of customer-facing software/hardware integrations. Develop and execute detailed manual and automated software/UI test cases in Python or other OO language. Experience in electrical engineering, Hardware debugging, hardware/firmware or embedded testing is strongly desired. You will collaborate with cross-functional teams to validate mark\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T09:55:15Z",
+    "key": "07aedb42567db365",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-02T09:58:28.493308+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Software QA Engineer",
+    "company": "Hoxton Wealth",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5907617368?utm_medium=api&utm_source=61450a73",
+    "description": "The role Hoxton Wealth is a global financial services firm with offices in key locations, including Cyprus, the United States, the United Kingdom, Dubai, South Africa, Australia & Asia. The company leverages a tech and tax-led approach to financial planning, combining innovative technology solutions with deep expertise in tax-efficient strategies to deliver comprehensive wealth management services. With over $4 billion in assets under management (AUM), Hoxton Wealth is committed to helping clie\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T12:48:40Z",
+    "key": "52b8b422956e3bda",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-02T09:58:28.493381+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Financial Reporting Analyst- CA, Accounting , Intercompany ,INDAS,Banking Regulations - 5yrs exp",
+    "company": "Cisco",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5904950188?utm_medium=api&utm_source=61450a73",
+    "description": "Meet the Team Join Cisco's Global Accounting & Reporting (GAR) organization, a Finance team focused on controllership oversight, accounting delivery, and compliance assurance. The team partners with internal Centers of Excellence and cross-functional stakeholders to ensure accurate financial reporting, strong controls, and effective compliance across Cisco's legal entities. As part of the team, you will support Intercompany Accounting and Controllership activities for Cisco's India legal entiti\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T11:31:51Z",
+    "key": "70bd7102312a75bc",
+    "role_id": "it-auditor",
+    "role_title": "IT Auditor",
+    "category": "adjacent",
+    "matched_query": "Internal Auditor IT",
+    "fetched_at": "2026-10-02T09:58:30.416839+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
   }
 ]
