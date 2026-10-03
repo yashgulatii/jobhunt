@@ -9084,5 +9084,313 @@
     "reasons": [
       "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IT Security Administrator-AWS Security",
+    "company": "Talent Arabia",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5906871985?utm_medium=api&utm_source=61450a73",
+    "description": "We have an urgent requirement for IT Security Administrator-AWS Security for our client based in Dubai(PWFH) Experience in IT Security, Systems Administration, or Cybersecurity Operations. Must Strong hand in network security technologies, operating systems, and enterprise infrastructure. Must Hands-on experience with AWS cloud platform and container technologies. Must Experience with vulnerability management and patch management processes. Must Familiarity with SIEM solutions, endpoint securit\u2026",
+    "salary_min": 960000,
+    "salary_max": 1200000,
+    "posted": "2026-10-02T07:53:55Z",
+    "key": "0f57e10742aca017",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Ethical Hacker",
+    "fetched_at": "2026-10-03T09:21:25.681491+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IN-Specialist-SOC-Cyber as a Service-Advisory-Gurgaon",
+    "company": "PricewaterhouseCoopers",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5908384911?utm_medium=api&utm_source=61450a73",
+    "description": "Line of Service Advisory Industry/Sector Not Applicable Specialism Risk Management Level Specialist Job Description & Summary At PwC, our people in cybersecurity focus on protecting organisations from cyber threats through advanced technologies and strategies. They work to identify vulnerabilities, develop secure systems, and provide proactive solutions to safeguard sensitive data. As a cybersecurity generalist at PwC, you will focus on providing comprehensive security solutions and experience \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T21:39:45Z",
+    "key": "2a6640a9ca4f3702",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Ethical Hacker",
+    "fetched_at": "2026-10-03T09:21:25.681725+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IN_Associate_SOC_Cyber Defense & Engineering_ Advisory _Mumbai",
+    "company": "PricewaterhouseCoopers",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5908402381?utm_medium=api&utm_source=61450a73",
+    "description": "Line of Service Advisory Industry/Sector FS X-Sector Specialism Risk Management Level Associate Job Description & Summary At PwC, our people in cybersecurity focus on protecting organisations from cyber threats through advanced technologies and strategies. They work to identify vulnerabilities, develop secure systems, and provide proactive solutions to safeguard sensitive data. As a cybersecurity generalist at PwC, you will focus on providing comprehensive security solutions and experience acro\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T21:46:42Z",
+    "key": "e73ba87285492331",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Ethical Hacker",
+    "fetched_at": "2026-10-03T09:21:25.681861+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Security GRC Analyst II",
+    "company": "Diligent Corporation",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5908398469?utm_medium=api&utm_source=61450a73",
+    "description": "Here\u2019s a summary of the role: Every enterprise deal reaches the moment where someone in security says \u201cprove it.\u201d You\u2019re the person who answers \u2014 quickly, accurately, and with the evidence to back it up. As an Analyst II on our Trust & Assurance team, you\u2019ll own a live queue of security questionnaires, third-party due diligence assessments, RFP security sections and customer assurance requests. You\u2019ll draft at speed using AI-assisted response tooling, then verify every answer against our approv\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T21:44:28Z",
+    "key": "e7f696b9d732ba32",
+    "role_id": "grc",
+    "role_title": "GRC / Compliance Analyst",
+    "category": "core",
+    "matched_query": "GRC Analyst",
+    "fetched_at": "2026-10-03T09:21:27.417210+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Engineer, NOC",
+    "company": "Consilio",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5909531891?utm_medium=api&utm_source=61450a73",
+    "description": "About Consilio Consilio's consulting and services teams assist legal departments of multinational corporations and their outside counsel in responding to legal matters, reducing legal spend, minimizing risk, and operating more efficiently. Across eDiscovery, document review, and legal consulting services, Consilio is committed to delivering service excellence globally and applying proven knowledge and technology to help clients solve challenges with lower cost, lower risk, and improved speed. P\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T11:06:26Z",
+    "key": "e56695a95c6e9a5b",
+    "role_id": "noc",
+    "role_title": "NOC Engineer",
+    "category": "adjacent",
+    "matched_query": "NOC Engineer",
+    "fetched_at": "2026-10-03T09:21:29.902164+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Network Engineer - NOC Operations",
+    "company": "Wells Fargo",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5907468703?utm_medium=api&utm_source=61450a73",
+    "description": "About this role: Wells Fargo is seeking a Network Engineer. In this role, you will: Participate in the installation, support and maintenance of network infrastructure Provide technical support to end users regarding hardware and application issues Troubleshoot networks, systems and applications to identify and correct malfunctions and other operational problems Integrate, maintain, and consolidate network services including but not limited to switches, routers, firewalls, wireless networks \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T11:17:38Z",
+    "key": "fa17dcee91e7802a",
+    "role_id": "noc",
+    "role_title": "NOC Engineer",
+    "category": "adjacent",
+    "matched_query": "NOC Engineer",
+    "fetched_at": "2026-10-03T09:21:29.902392+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IT Service Desk Analyst I",
+    "company": "Arrow Electronics",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5909546492?utm_medium=api&utm_source=61450a73",
+    "description": "Position: IT Service Desk Analyst I Job Description: IT Service Desk Analyst I Help Desk Analysts are on the frontline of customer support. They are focused on helping to resolve technical issues end users encounter, or connecting those users with more intensive IT support, when needed. What You'll Be Doing A Tier 1 Help Desk Analyst typically takes the initial inquiry and manages relatively simple hardware, software or network issues. A help desk analyst spends most of the day performing remot\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T11:15:51Z",
+    "key": "99f0d6ede6cd4ace",
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "matched_query": "Service Desk Analyst",
+    "fetched_at": "2026-10-03T09:21:31.514160+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "AWS Terrafrom DevOps",
+    "company": "Infosys Limited",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5906993965?utm_medium=api&utm_source=61450a73",
+    "description": "Job Description: We are looking for an experienced AWS DevOps Engineer with strong expertise in Terraform and AWS Cloud The ideal candidate will be responsible for designing implementing automating and managing cloud infrastructure CI CD pipelines and deployment processes while ensuring scalability security and reliability of enterprise applications Key Responsibilities: Design implement and maintain AWS cloud infrastructure using Terraform Infrastructure as Code Build and manage CI CD pipeline\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T08:35:47Z",
+    "key": "f3f7731a41a5d73f",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-10-03T09:21:32.658117+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "FMS Contractors 171477",
+    "company": "ADP",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5907458382?utm_medium=api&utm_source=61450a73",
+    "description": "The Associate will be required to triage and address problems, incidents and issues for remediation and handle Incidents Notification communications to regional management. Coordinate and manage issues with Engineering, Development, Vendor, Regional / LAN Support and Management Required to support various ADP business units including their product suites and infrastructures while adhering to IT Corporate policy and governance. Required to patch and upgrade implementation to server systems and B\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T11:14:48Z",
+    "key": "36cef90367c4a1ee",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "matched_query": "Network Administrator",
+    "fetched_at": "2026-10-03T09:21:32.658257+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "SDET",
+    "company": "VDart Software Services Pvt. Ltd.",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5906273747?utm_medium=api&utm_source=61450a73",
+    "description": "Regression Test Engineer / QA Engineer Technical Skill Requirements Role Overview Frameworks: Angular Boq (Frontend), Java (Backend) Mandatory Technical Skills Frontend Framework Angular and Boq Web Proficiency in modern Angular 18: component-driven architecture, signals, change detection, standalone components, Boq Web bootstrapping & FC Data. Frontend Language TypeScript Advanced proficiency in TypeScript; authoring type-safe UI test suites, mocking client services, and strictly adhering to G\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T01:49:13Z",
+    "key": "a2f2ac005e9d17f2",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "SDET",
+    "fetched_at": "2026-10-03T09:21:34.523018+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Sdet II (Tcf)",
+    "company": "Concentrix",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5908313140?utm_medium=api&utm_source=61450a73",
+    "description": "Job Title: SDET II (TCF) Job Description We're Concentrix. The intelligent transformation partner. Solution-focused. Tech-powered. Intelligence-fueled. The global technology and services leader that powers the world\u2019s best brands, today and into the future. We\u2019re solution-focused, tech-powered, intelligence-fueled. With unique data and insights, deep industry expertise, and advanced technology solutions, we\u2019re the intelligent transformation partner that powers a world that works, helping compan\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T21:21:09Z",
+    "key": "527fbd9cc8901a10",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "SDET",
+    "fetched_at": "2026-10-03T09:21:34.523819+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Associate SDET Specialist",
+    "company": "Global Payment Holding Company",
+    "location": "Pune, Maharashtra",
+    "url": "https://www.adzuna.in/details/5905926224?utm_medium=api&utm_source=61450a73",
+    "description": "Ready to take your career global? Make your mark at one of the biggest names in payments. We\u2019re looking for a Associate SDET Specialist to join our ever evolving Genius S team and help shape the future of global commerce. What you\u2019ll own Ability to easily move from manual to automated testing based on the need of the team, feature being tested and timeline of the initiative. Participates in all steps of the software development life cycle and is accountable for producing quality code. Collabora\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T21:32:49Z",
+    "key": "48ccde36b4a8af48",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "SDET",
+    "fetched_at": "2026-10-03T09:21:34.523927+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Engineer 3, SDET Engineer",
+    "company": "Comcast",
+    "location": "Chennai, Tamil Nadu",
+    "url": "https://www.adzuna.in/details/5909546976?utm_medium=api&utm_source=61450a73",
+    "description": "Comcast brings together the best in media and technology. We drive innovation to create the world's best entertainment and online experiences. As a Fortune 50 leader, we set the pace in a variety of innovative and fascinating businesses and create career opportunities across a wide range of locations and disciplines. We are at the forefront of change and move at an amazing pace, thanks to our remarkable people, who bring cutting-edge products and services to life for millions of customers every\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T11:16:22Z",
+    "key": "8cf058fd0877acd4",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "SDET",
+    "fetched_at": "2026-10-03T09:21:34.524165+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "SDET (Software Development Engineer in Test)",
+    "company": "Priceline",
+    "location": "Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/details/5901482364?utm_medium=api&utm_source=61450a73",
+    "description": "This role is eligible for our hybrid work model: Two days in the office. SDET (Software Developer Engineer in Test) Our Technology team is the backbone of our company: constantly creating, testing, learning and iterating to better meet the needs of our customers. If you thrive in a fast-paced, ideas-led environment, you\u2019re in the right place. Why this job\u2019s a big deal? The travel industry is ever evolving and Priceline is at the forefront. As pioneers, we are creating new and exciting ways for \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T16:18:08Z",
+    "key": "ec11b86334b7e198",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "SDET",
+    "fetched_at": "2026-10-03T09:21:34.524276+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
   }
 ]
