@@ -9392,5 +9392,71 @@
     "reasons": [
       "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IT Consulting",
+    "company": "Infosys Limited",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5909286084?utm_medium=api&utm_source=61450a73",
+    "description": "Key Responsibilities: A day in the life of an Infoscion As part of the Infosys consulting team your primary role would be to actively aid the consulting team in different phases of the project including problem definition effort estimation diagnosis solution generation and design and deployment You will explore the alternatives to the recommended solutions based on research that includes literature surveys information available in public domains vendor evaluation information etc and build POCs \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T08:11:05Z",
+    "key": "2c7833904231e5f6",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-03T09:42:09.926271+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Cyber Threat Intelligence Analyst, Scams (DC, MD, VA only)",
+    "company": "TRM Labs",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5907823335?utm_medium=api&utm_source=61450a73",
+    "description": "Build a Safer World. TRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct operating pictures of threat networks. Leading agencies and businesses worldwide rely on TRM to make the world safer and more secure. About the Role The Scam Disruption team is TRM's tip of the spear against pig butchering syndicates, romance fraud networks, \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T16:24:03Z",
+    "key": "a6b0cf9507a4a18b",
+    "role_id": "cti",
+    "role_title": "Cyber Threat Intel Analyst",
+    "category": "core",
+    "matched_query": "Threat Intelligence Analyst",
+    "fetched_at": "2026-10-03T09:42:14.105000+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "INTL - QA Engineer",
+    "company": "Insight Global",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5909548063?utm_medium=api&utm_source=61450a73",
+    "description": "Job Description Position Overview: Insight Global is seeking QA Engineers to support enterprise application testing initiatives. These individuals will focus on test automation, API validation, manual testing, and defect management while working closely with onsite stakeholders. Candidates should have experience building scalable automated testing solutions and working in collaborative Agile environments. Resources will work remotely from India and must maintain daily collaboration with U.S.-ba\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T11:17:06Z",
+    "key": "c93d43fbff19d010",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-03T09:42:18.693072+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
   }
 ]
