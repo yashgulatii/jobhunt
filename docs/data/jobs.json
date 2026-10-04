@@ -10338,5 +10338,159 @@
     "reasons": [
       "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Penetration Tester Specialist",
+    "company": "Global Payment Holding Company",
+    "location": "Pune, Maharashtra",
+    "url": "https://www.adzuna.in/details/5910249671?utm_medium=api&utm_source=61450a73",
+    "description": "R eady to take your career g lobal ? Global Payments Inc. is a leading worldwide provider of payment technology services that deliver innovative solutions driven by customer needs globally. Our technologies, partnerships, and employee expertise enable us to provide a broad range of products and services that allow our customers to accept all payment types across a variety of distribution channels in many markets around the world. What you\u2019ll own Creates, coordinates and plans engagements with i\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T21:47:19Z",
+    "key": "10c0d2fd4a618831",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-04T09:59:49.667382+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "IT Consulting",
+    "company": "Infosys Limited",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5909286102?utm_medium=api&utm_source=61450a73",
+    "description": "Key Responsibilities: A day in the life of an Infoscion As part of the Infosys consulting team your primary role would be to actively aid the consulting team in different phases of the project including problem definition effort estimation diagnosis solution generation and design and deployment You will explore the alternatives to the recommended solutions based on research that includes literature surveys information available in public domains vendor evaluation information etc and build POCs \u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T08:11:05Z",
+    "key": "64fafdf99de4597b",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-04T09:59:49.667769+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Security Consultant-Infrastructure Security",
+    "company": "IBM",
+    "location": "New Delhi, Delhi",
+    "url": "https://www.adzuna.in/details/5909547940?utm_medium=api&utm_source=61450a73",
+    "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and crea\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T11:17:01Z",
+    "key": "64e5cbf4f183e065",
+    "role_id": "vapt",
+    "role_title": "VAPT / Pentester",
+    "category": "core",
+    "matched_query": "Security Consultant",
+    "fetched_at": "2026-10-04T09:59:50.578833+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Threat Intelligence Analyst \u2013 SmartHunt",
+    "company": "Infoblox",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5910218008?utm_medium=api&utm_source=61450a73",
+    "description": "Description At Infoblox, every breakthrough begins with a bold \u201cwhat if.\u201d What if your ideas could ignite global innovation? What if your curiosity could redefine the future? We invite you to step into the next exciting chapter of your career journey. Bring your creativity, drive, your daring spirit, and feel what it\u2019s like to thrive on a team big enough to make an impact, yet small enough to make a difference. Our cloud-first networking and security solutions already protect 70% of the Fortune\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T21:27:45Z",
+    "key": "c73a856eea380c34",
+    "role_id": "cti",
+    "role_title": "Cyber Threat Intel Analyst",
+    "category": "core",
+    "matched_query": "Threat Intelligence Analyst",
+    "fetched_at": "2026-10-04T09:59:54.337292+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Security Operation Center - VP",
+    "company": "Mitsubishi UFJ Financial Group",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5910215858?utm_medium=api&utm_source=61450a73",
+    "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world\u2019s leading financial groups. Across the globe, we\u2019re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world\u2019s most trusted financial gro\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T21:27:07Z",
+    "key": "518f555125f7fa75",
+    "role_id": "cti",
+    "role_title": "Cyber Threat Intel Analyst",
+    "category": "core",
+    "matched_query": "Threat Intelligence Analyst",
+    "fetched_at": "2026-10-04T09:59:54.337435+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "QA Engineer",
+    "company": "Hashone Careers",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5909847740?utm_medium=api&utm_source=61450a73",
+    "description": "Who We Are We\u2019re a small, global team shipping ambitious features at a pace that would overwhelm most. The kind of pace where QA isn\u2019t a back office function \u2014 it\u2019s the heartbeat of everything we ship. Our customers expect speed and trust. QA is where those two meet. What We Need We\u2019re looking for a QA Specialist who thrives in fast-moving environments. Someone who can: \u25cf Spot gaps before they become failures. \u25cf Shift gears as priorities change \u2014 without losing accuracy. \u25cf Push testing forward \u2026",
+    "salary_min": 1000000,
+    "salary_max": 3000000,
+    "posted": "2026-10-03T16:32:13Z",
+    "key": "714fa387bd1e57c6",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-04T09:59:58.838110+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
+  },
+  {
+    "source": "adzuna",
+    "title": "INTN QA Engineer",
+    "company": "Insight Global",
+    "location": "Noida, Ghaziabad",
+    "url": "https://www.adzuna.in/details/5909548172?utm_medium=api&utm_source=61450a73",
+    "description": "Job Description Day-to-Day - Execute manual, exploratory, functional, regression, and E2E testing - Analyze requirements, user stories, and acceptance criteria to define test scenarios - Identify edge cases, quality risks, and coverage gaps - Design, develop, and maintain automated test suites - Build and maintain BDD test assets using Cucumber - Perform API and backend validation testing - Integrate automated tests into CI/CD pipelines - Execute performance and load testing using JMeter - Leve\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-03T11:17:07Z",
+    "key": "2745a05c2bed0942",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "matched_query": "QA Engineer",
+    "fetched_at": "2026-10-04T09:59:58.838349+00:00",
+    "score": 55,
+    "verdict": "use caution",
+    "reasons": [
+      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
+    ]
   }
 ]
