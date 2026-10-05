@@ -91,6 +91,7 @@
 </head>
 <body>
   <h1>Job Search Console</h1>
+  <div class="sub"><a href="piyush.html" style="color:var(--accent)">Piyush's MIS Executive board →</a></div>
   <div class="sub" id="last-updated">Loading…</div>
 
   <div class="stats" id="stats"></div>
@@ -99,6 +100,9 @@
 
   <div class="searchbar">
     <input type="text" id="search" placeholder="Search title or company…">
+    <label style="font-size:12.5px; color:var(--muted); display:flex; align-items:center; gap:5px; white-space:nowrap;">
+      <input type="checkbox" id="hide-applied" checked> Hide applied
+    </label>
     <span class="filters-toggle" id="filters-toggle">More filters ▾</span>
   </div>
   <div class="filters" id="filters">
@@ -130,6 +134,9 @@ function saveStatuses(map) {
 }
 let STATUSES = loadStatuses();
 
+const HIDE_APPLIED_KEY = 'jobtrack:hideApplied';
+let HIDE_APPLIED = localStorage.getItem(HIDE_APPLIED_KEY) !== 'false'; // default true
+
 function setStatus(key, kind) {
   // kind: 'saved' | 'applied' | 'hidden'. Clicking an already-active status clears it.
   const current = STATUSES[key];
@@ -142,6 +149,13 @@ function setStatus(key, kind) {
   applyFilters();
 }
 
+// This page is Yash's cybersecurity board — MIS postings (Piyush's board,
+// see piyush.html) are filtered out here, not just unlabeled. A job with
+// no role_id yet hasn't been AI-classified (see score_jobs.py) and is
+// withheld from both dashboards until it has — showing it now would be
+// exactly the "wrong role" bug this was built to fix.
+const EXCLUDED_CATEGORIES = ['mis'];
+
 let ALL_JOBS = [];
 let ACTIVE_TAB = 'all';
 
@@ -153,7 +167,15 @@ async function load() {
   } catch (e) {
     jobs = [];
   }
+  jobs = jobs.filter(j => j.role_id && !EXCLUDED_CATEGORIES.includes(j.category));
   ALL_JOBS = jobs;
+  document.getElementById('hide-applied').checked = HIDE_APPLIED;
+  document.getElementById('hide-applied').addEventListener('change', (e) => {
+    HIDE_APPLIED = e.target.checked;
+    localStorage.setItem(HIDE_APPLIED_KEY, String(HIDE_APPLIED));
+    renderTabs();
+    applyFilters();
+  });
   populateFilters(jobs);
   renderTabs();
   renderStats();
@@ -198,11 +220,12 @@ function populateFilters(jobs) {
 }
 
 function tabCounts(jobs) {
-  const notHidden = jobs.filter(j => STATUSES[j.key] !== 'hidden');
+  let visible = jobs.filter(j => STATUSES[j.key] !== 'hidden');
+  if (HIDE_APPLIED) visible = visible.filter(j => STATUSES[j.key] !== 'applied');
   return {
-    all: notHidden.length,
-    core: notHidden.filter(j => j.category === 'core').length,
-    adjacent: notHidden.filter(j => j.category === 'adjacent').length,
+    all: visible.length,
+    core: visible.filter(j => j.category === 'core').length,
+    adjacent: visible.filter(j => j.category === 'adjacent').length,
     pipeline: jobs.filter(j => STATUSES[j.key] === 'saved' || STATUSES[j.key] === 'applied').length,
   };
 }
@@ -263,6 +286,7 @@ function applyFilters() {
       if (status !== 'saved' && status !== 'applied') return false;
     } else {
       if (status === 'hidden') return false;
+      if (HIDE_APPLIED && status === 'applied') return false;
       if (ACTIVE_TAB === 'core' && j.category !== 'core') return false;
       if (ACTIVE_TAB === 'adjacent' && j.category !== 'adjacent') return false;
     }
