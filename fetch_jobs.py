@@ -203,9 +203,20 @@ def main():
                 rejected_duplicate += 1
                 continue
             j["key"] = key
-            j["role_id"] = role["id"]
-            j["role_title"] = role["title"]
-            j["category"] = role["category"]
+            # These are only a HINT from which search query surfaced the
+            # job — not a verdict. score_jobs.py has the AI read the actual
+            # title+description and sets the real role_id/role_title/
+            # category before this job is ever shown on a dashboard. Until
+            # that happens role_confirmed is False and the job is held back
+            # from both dashboards (see classify step) so a mistagged
+            # posting never appears under the wrong role in the meantime.
+            j["candidate_role_id"] = role["id"]
+            j["candidate_role_title"] = role["title"]
+            j["candidate_category"] = role["category"]
+            j["role_id"] = None
+            j["role_title"] = None
+            j["category"] = None
+            j["role_confirmed"] = False
             j["matched_query"] = query
             j["fetched_at"] = datetime.now(timezone.utc).isoformat()
             j["score"] = None
