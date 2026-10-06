@@ -58,18 +58,31 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 ROLES_BY_ID = {r["id"]: r for r in ROLES}
 
 # Tried in order. Each must speak the OpenAI chat-completions format.
+#
+# Both model IDs below have already broken once in production (Oct 2026):
+# Groq deprecated+shut down llama-3.3-70b-versatile on Aug 16 2026, and
+# OpenRouter dropped every DeepSeek free model from its catalog entirely
+# before that. Free-tier model lineups rotate — a hardcoded slug WILL
+# eventually 404 again. Two mitigations against that recurring:
+# 1. OpenRouter's model is "openrouter/free", a meta-route that always
+#    resolves to whatever free model is currently live, instead of a
+#    specific slug that can be retired out from under this script.
+# 2. Groq has no such auto-route, so if "openai/gpt-oss-120b" ever 404s,
+#    check https://console.groq.com/docs/models for its current free/
+#    production catalog and swap the string below — nothing else needs
+#    to change, call_chat()/score_batch() are provider-agnostic.
 PROVIDERS = [
     {
         "name": "openrouter",
         "url": "https://openrouter.ai/api/v1/chat/completions",
         "key": OPENROUTER_API_KEY,
-        "model": "deepseek/deepseek-chat:free",
+        "model": "openrouter/free",
     },
     {
         "name": "groq",
         "url": "https://api.groq.com/openai/v1/chat/completions",
         "key": GROQ_API_KEY,
-        "model": "llama-3.3-70b-versatile",
+        "model": "openai/gpt-oss-120b",  # Groq's own recommended replacement for the retired model
     },
 ]
 
@@ -152,6 +165,12 @@ def call_chat(provider, messages, max_tokens):
     )
     if resp.status_code == 429:
         raise RateLimited(provider["name"])
+    if resp.status_code == 404:
+        raise RuntimeError(
+            f"404 from {provider['name']} — model '{provider['model']}' likely no longer "
+            f"exists (free-tier model lineups rotate). Check the provider's current model "
+            f"catalog and update PROVIDERS in score_jobs.py."
+        )
     resp.raise_for_status()
     return resp.json()["choices"][0]["message"]["content"].strip()
 
