@@ -158,14 +158,16 @@ let ALL_JOBS = [];
 let ACTIVE_TAB = 'all';
 
 async function load() {
-  let jobs = [];
+  let rawJobs = [];
   try {
     const res = await fetch('data/jobs.json', { cache: 'no-store' });
-    jobs = await res.json();
+    rawJobs = await res.json();
   } catch (e) {
-    jobs = [];
+    rawJobs = [];
   }
-  jobs = jobs.filter(j => j.role_id && INCLUDED_CATEGORIES.includes(j.category));
+  const pendingCount = rawJobs.filter(j => !j.role_confirmed && j.candidate_category === 'mis').length;
+
+  let jobs = rawJobs.filter(j => j.role_id && INCLUDED_CATEGORIES.includes(j.category));
   ALL_JOBS = jobs;
   document.getElementById('hide-applied').checked = HIDE_APPLIED;
   document.getElementById('hide-applied').addEventListener('change', (e) => {
@@ -179,11 +181,20 @@ async function load() {
   renderStats();
   applyFilters();
 
+  const backlogNote = pendingCount > 0
+    ? ` · <span style="color:${pendingCount > 50 ? 'var(--risk)' : 'var(--caution)'}">${pendingCount} awaiting AI classification</span>`
+    : '';
+
   if (jobs.length) {
     const latest = jobs.reduce((a, b) => (a.fetched_at > b.fetched_at ? a : b));
     const when = new Date(latest.fetched_at);
-    document.getElementById('last-updated').textContent =
-      `${jobs.length} postings tracked · last new posting fetched ${when.toLocaleString()}`;
+    document.getElementById('last-updated').innerHTML =
+      `${jobs.length} postings tracked · last classified posting fetched ${when.toLocaleString()}${backlogNote}`;
+  } else if (rawJobs.some(j => j.candidate_category === 'mis')) {
+    document.getElementById('last-updated').innerHTML =
+      `Postings fetched, but 0 classified yet${backlogNote}. ` +
+      `Check the <a href="../../actions" style="color:var(--accent)">Score postings for legitimacy</a> ` +
+      `step logs — likely a missing/invalid OPENROUTER_API_KEY or GROQ_API_KEY secret.`;
   } else {
     document.getElementById('last-updated').innerHTML =
       `No postings yet. If this stays empty after the scheduled run, check the ` +

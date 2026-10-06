@@ -226,6 +226,25 @@ def main():
         print("No data file yet — run fetch_jobs.py first.")
         return
 
+    # Fail LOUD, not silent. A previous version of this script left every
+    # job quietly "pending" forever when no provider key was configured —
+    # the workflow still showed green, the run still finished in ~20s, and
+    # nothing in the UI said why nothing was being classified. That's the
+    # exact failure mode that caused a 500-job backlog to go unnoticed.
+    configured = [p["name"] for p in PROVIDERS if p["key"]]
+    print(f"LLM providers configured: {configured or 'NONE'}")
+    if not configured:
+        print(
+            "ERROR: no LLM provider is configured (OPENROUTER_API_KEY and "
+            "GROQ_API_KEY are both missing/empty). Every pending job will "
+            "stay unclassified until at least one is set as a repo secret. "
+            "Settings -> Secrets and variables -> Actions.",
+            file=sys.stderr,
+        )
+        sys.exit(1)  # workflow step is set to continue-on-error so this
+                      # still shows as a visible warning without blocking
+                      # the commit of whatever fetch_jobs.py already found.
+
     with open(DATA_FILE) as f:
         jobs = json.load(f)
 
