@@ -15,11 +15,14 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-26T15:04:51.024841+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 78,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Entain is a verifiable global gaming company",
+      "Offensive Security Specialist aligns with VAPT/pentesting",
+      "No red flags in description"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -37,11 +40,14 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-26T15:04:51.024908+00:00",
-    "score": 55,
+    "score": 50,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 1-3 years experience, not suitable for fresher",
+      "Certbar Security is a legitimate security firm",
+      "Role matches VAPT/pentesting"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -54,16 +60,19 @@
     "salary_max": null,
     "posted": "2026-09-25T15:22:00Z",
     "key": "13e7373d38966310",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-26T15:04:51.024959+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Demands 6 years total experience, exceeding fresher limit",
+      "HCLSoftware is a legitimate established company",
+      "Role matches Application Security Engineer"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -81,99 +90,14 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-26T15:04:51.025010+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 75,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Backend Cybersecurity Engineer (Remote | $30\u2013$100/hr)",
-    "company": "Synthires",
-    "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5893924398?se=sFITn7u58RG67O0rvNtc-g&utm_medium=api&utm_source=61450a73&v=039490652A0A9B6EDBCADFF4693212615915F4C7",
-    "description": "Backend Security Engineer Position: Backend Security Engineer Type: Contractor (~15 Hours/Week) Compensation: $30\u2013$100/hour Location: Remote About the Opportunity micro1 is engaging experienced Backend Security Engineers to contribute to a customer project focused on training and improving next-generation AI systems. In this role, you will use your software engineering and cybersecurity expertise to create realistic, challenging coding tasks that help AI models improve their ability to solve ba\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-22T17:36:50Z",
-    "key": "7b184b2d3b103909",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Penetration Tester",
-    "fetched_at": "2026-09-26T15:04:51.025059+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Backend Cybersecurity Engineer (Remote | $30\u2013$100/hr)",
-    "company": "Synthires",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5893930299?se=sFITn7u58RG67O0rvNtc-g&utm_medium=api&utm_source=61450a73&v=FBA676A4769820D4B0527EAF621D1CECE8FCE44C",
-    "description": "Backend Security Engineer Position: Backend Security Engineer Type: Contractor (~15 Hours/Week) Compensation: $30\u2013$100/hour Location: Remote About the Opportunity micro1 is engaging experienced Backend Security Engineers to contribute to a customer project focused on training and improving next-generation AI systems. In this role, you will use your software engineering and cybersecurity expertise to create realistic, challenging coding tasks that help AI models improve their ability to solve ba\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-22T17:39:59Z",
-    "key": "a8a8513792054efb",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Penetration Tester",
-    "fetched_at": "2026-09-26T15:04:51.025098+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Security Software Engineer \u2013 Backend (Remote | $30\u2013$100/hr)",
-    "company": "Synthires",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5893930115?se=sFITn7u58RG67O0rvNtc-g&utm_medium=api&utm_source=61450a73&v=52E82AAD2C976E1A9B8C0405C472FBC288022B41",
-    "description": "Backend Security Engineer Position: Backend Security Engineer Type: Contractor (~15 Hours/Week) Compensation: $30\u2013$100/hour Location: Remote About the Opportunity micro1 is engaging experienced Backend Security Engineers to contribute to a customer project focused on training and improving next-generation AI systems. In this role, you will use your software engineering and cybersecurity expertise to create realistic, challenging coding tasks that help AI models improve their ability to solve ba\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-22T17:39:35Z",
-    "key": "f6ba644b479a840d",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Penetration Tester",
-    "fetched_at": "2026-09-26T15:04:51.025140+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Rust Engineer (Remote | $100\u2013$150/hr)",
-    "company": "Synthires",
-    "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5894220173?se=sFITn7u58RG67O0rvNtc-g&utm_medium=api&utm_source=61450a73&v=6EA1F8D852DA525631E82DB9D008955DA593E7BC",
-    "description": "Backend Security Engineer Position: Backend Security Engineer Type: Contractor (~15 Hours/Week) Compensation: $30\u2013$100/hour Location: Remote About the Opportunity micro1 is engaging experienced Backend Security Engineers to contribute to a customer project focused on training and improving next-generation AI systems. In this role, you will use your software engineering and cybersecurity expertise to create realistic, challenging coding tasks that help AI models improve their ability to solve ba\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-22T23:34:21Z",
-    "key": "e93623e5f8eaff3f",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Penetration Tester",
-    "fetched_at": "2026-09-26T15:04:51.025176+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "iZOOlogic appears to be a legitimate cybersecurity firm",
+      "Responsibilities focus on penetration testing and vulnerability assessments",
+      "No explicit experience requirement mentioned, suitable for freshers"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -186,16 +110,20 @@
     "salary_max": null,
     "posted": "2026-09-24T10:32:27Z",
     "key": "a051069a08a09f4e",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-26T15:04:51.025208+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 65,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Entain is a real, well-known global gaming/sports company with an established Hyderabad engineering hub since 2001",
+      "Genuine Application Security Specialist role",
+      "Description is cut off so full fit assessment is limited",
+      "May expect some experience despite 'fresher' filter"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -213,11 +141,15 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-26T15:04:51.025247+00:00",
-    "score": 55,
+    "score": 35,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Listed via third-party recruiter 'Jobgether', not a direct hire from the actual employer",
+      "'Penetration Testing Analyst 3' implies mid-senior level \u2014 likely expects more than 1 year",
+      "Actual partner company not named",
+      "Client-facing consulting language suggests experienced hire"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -235,11 +167,14 @@
     "category": "core",
     "matched_query": "Threat Intelligence Analyst",
     "fetched_at": "2026-09-26T15:04:55.365598+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Clear Cyber Threat Intelligence Analyst role description",
+      "Partner company managed application process is common in staffing",
+      "No red flags in job description or requirements"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -257,11 +192,14 @@
     "category": "core",
     "matched_query": "Threat Intelligence Analyst",
     "fetched_at": "2026-09-26T15:04:55.365652+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 90,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "TRM Labs is a legitimate, well-known blockchain security company",
+      "Specific role focus on scam disruption shows genuine hiring intent",
+      "Location restriction (DC, MD, VA only) suggests targeted, real recruitment"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -279,11 +217,14 @@
     "category": "core",
     "matched_query": "Threat Intelligence Analyst",
     "fetched_at": "2026-09-26T15:04:55.365695+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 88,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "EY is a major global professional services firm with legitimate hiring",
+      "Tactical Cyber Threat Intelligence Analyst title matches the role",
+      "Standard corporate career page language indicates real position"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -301,11 +242,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.479812+00:00",
-    "score": 55,
+    "score": 45,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 4 years experience - significantly beyond fresher level",
+      "Specific technical requirements (Hadoop, Spark, Kafka) indicate mid-senior role",
+      "Americana Restaurants is a real company but this is not an entry-level position"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -323,11 +267,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.479882+00:00",
-    "score": 55,
+    "score": 50,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 3 years experience - beyond typical fresher level",
+      "Network testing specialization suggests some technical background needed",
+      "TekIT Software Solutions appears to be a legitimate IT company"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -345,11 +292,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.479930+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 88,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Morningstar is a known financial services firm",
+      "Job title clearly indicates QA automation",
+      "No suspicious language or requests"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -367,11 +317,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.479983+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 87,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Capco is a reputable consulting firm",
+      "Role specifies Playwright & Appium automation",
+      "Posting appears on a legitimate job platform"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -389,11 +342,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.480033+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 86,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Capco is a well\u2011known employer",
+      "UAT testing falls under QA scope",
+      "No red flags in description"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -411,11 +367,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.480083+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 86,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Capco is a recognized company",
+      "UAT Tester title aligns with QA entry\u2011level roles",
+      "Description is generic but credible"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -433,11 +392,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.480134+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Capco is a legitimate firm",
+      "Automation Tester role matches QA automation",
+      "No indication of scam or excessive experience requirement"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -455,11 +417,13 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.480186+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 88,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Company names are verifiable and description matches entry\u2011level QA role",
+      "No request for money or sensitive info; language is specific to testing tasks"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -477,11 +441,13 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.480232+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Staples India GCO is a known employer; role description aligns with fresh QA expectations",
+      "No red\u2011flag language or upfront fees"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -499,11 +465,13 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.480282+00:00",
-    "score": 55,
+    "score": 80,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Company Ascendion is less widely known; description is generic and repeats across postings",
+      "Still a standard QA entry role, no money\u2011demand"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -521,11 +489,12 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.480330+00:00",
-    "score": 55,
+    "score": 80,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Duplicate of previous Ascendion posting with minor formatting differences; legitimacy uncertain but not overtly scammy"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -543,11 +512,13 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-26T15:04:59.480377+00:00",
-    "score": 55,
+    "score": 75,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Ecolibrium posting mentions advanced responsibilities (distributed systems, Claude Code) that may exceed typical fresher scope",
+      "Company less recognizable; still no fee request"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -568,52 +539,10 @@
     "score": 55,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "LINK JR10012061 to JR10011613",
-    "company": "Genpact",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5898505435?utm_medium=api&utm_source=61450a73",
-    "description": "Sr. Associate - Data and Analytics Advisory This position is only open for External Referrals Ready to turn bold ideas into real-world impact? At Genpact, we don\u2019t just adapt to change, we lead it. AI and digital innovation are transforming the way businesses work, and we\u2019re at the forefront of it. Genpact\u2019s AI Gigafactory , our industry-first accelerator, exemplifies how we scale advanced technology solutions to help global enterprises work smarter, grow faster, and transform at scale. Whether\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T21:30:52Z",
-    "key": "64382feb3885ed38",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Ethical Hacker",
-    "fetched_at": "2026-09-27T09:27:01.597369+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "IN_Specialist 3_SOC_Cyber as a Service_ Advisory _Gurgaon",
-    "company": "PricewaterhouseCoopers",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5897046264?utm_medium=api&utm_source=61450a73",
-    "description": "Line of Service Advisory Industry/Sector FS X-Sector Specialism Risk Management Level Specialist Job Description & Summary At PwC, our people in cybersecurity focus on protecting organisations from cyber threats through advanced technologies and strategies. They work to identify vulnerabilities, develop secure systems, and provide proactive solutions to safeguard sensitive data. As a cybersecurity generalist at PwC, you will focus on providing comprehensive security solutions and experience acr\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-24T21:13:26Z",
-    "key": "0ad05cb0dfc82517",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Ethical Hacker",
-    "fetched_at": "2026-09-27T09:27:01.597435+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Legitimate company Quicket Solutions Inc",
+      "Requires 3 years experience, exceeds fresher limit"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -626,16 +555,19 @@
     "salary_max": null,
     "posted": "2026-09-23T21:39:51Z",
     "key": "2f763997816be3bc",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Ethical Hacker",
     "fetched_at": "2026-09-27T09:27:01.597485+00:00",
-    "score": 55,
+    "score": 70,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Matches AppSec role",
+      "Legitimate company Vertiv Group",
+      "Title Engineer II may imply >1 year experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -653,11 +585,14 @@
     "category": "core",
     "matched_query": "GRC Analyst",
     "fetched_at": "2026-09-27T09:27:03.571911+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Matches GRC role",
+      "Legitimate company Gresham",
+      "No excessive experience requirement"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -675,11 +610,14 @@
     "category": "core",
     "matched_query": "GRC Analyst",
     "fetched_at": "2026-09-27T09:27:03.571973+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 70,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "SAP security and GRC focus matches GRC catalog",
+      "Company name appears legitimate and no red flags",
+      "Entry\u2011level wording but may expect some prior exposure"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -697,11 +635,14 @@
     "category": "adjacent",
     "matched_query": "NOC Engineer",
     "fetched_at": "2026-09-27T09:27:06.017553+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "L1 NOC Engineer is an entry\u2011level role",
+      "Company name is specific and verifiable",
+      "No scam indicators"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -719,11 +660,14 @@
     "category": "adjacent",
     "matched_query": "NOC Engineer",
     "fetched_at": "2026-09-27T09:27:06.017628+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Job explicitly requires 10 years experience, not suitable for fresher",
+      "Senior title suggests higher expectations",
+      "Still a legitimate NOC role but not fresher\u2011appropriate"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -741,11 +685,13 @@
     "category": "adjacent",
     "matched_query": "NOC Engineer",
     "fetched_at": "2026-09-27T09:27:06.017677+00:00",
-    "score": 55,
+    "score": 20,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 6\u20118 years experience, far beyond fresher level",
+      "Mid\u2011senior NOC responsibilities"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -763,11 +709,14 @@
     "category": "adjacent",
     "matched_query": "NOC Engineer",
     "fetched_at": "2026-09-27T09:27:06.017723+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 75,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "NOC Analyst role without explicit seniority, likely entry\u2011level",
+      "Company appears genuine",
+      "No scam language"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -785,33 +734,14 @@
     "category": "adjacent",
     "matched_query": "NOC Engineer",
     "fetched_at": "2026-09-27T09:27:06.017767+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "End -To- End Telco Engineer",
-    "company": "AST SpaceMobile",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5895353903?utm_medium=api&utm_source=61450a73",
-    "description": "AST SpaceMobile is building the first and only global cellular broadband network in space to operate directly with standard, unmodified mobile devices based on our extensive IP and patent portfolio and designed for both commercial and government applications. Our engineers and space scientists are on a mission to eliminate the connectivity gaps faced by today\u2019s five billion mobile subscribers and finally bring broadband to the billions who remain unconnected. Position Overview We are seeking a \u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T21:25:31Z",
-    "key": "2c05a9cc92902be5",
-    "role_id": "noc",
-    "role_title": "NOC Engineer",
-    "category": "adjacent",
-    "matched_query": "NOC Engineer",
-    "fetched_at": "2026-09-27T09:27:06.017809+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title indicates NOC role but description contains only company marketing copy with zero job responsibilities or requirements",
+      "Empty description makes it impossible to verify actual role or fresher-appropriateness",
+      "AST SpaceMobile is a real company, but posting quality is very low"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -829,11 +759,15 @@
     "category": "adjacent",
     "matched_query": "NOC Engineer",
     "fetched_at": "2026-09-27T09:27:06.017849+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 75,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Index Exchange is a real, established ad-tech company",
+      "'NOC Analyst' maps directly to catalog role",
+      "Description truncated but context plausible for NOC monitoring ad-platform infrastructure",
+      "No red-flag language or fee requests"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -851,11 +785,15 @@
     "category": "adjacent",
     "matched_query": "NOC Engineer",
     "fetched_at": "2026-09-27T09:27:06.017891+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 70,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "DigitalOcean is a well-known, verifiable cloud company",
+      "'Network Operations Engineer' aligns with NOC catalog role",
+      "'II' suffix may imply 2+ years expected \u2014 slight experience-over-fit concern for strict fresher",
+      "Description truncated but company reputation supports legitimacy"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -868,16 +806,20 @@
     "salary_max": null,
     "posted": "2026-09-26T07:37:22Z",
     "key": "28dfd4d8f7edc439",
-    "role_id": "noc",
-    "role_title": "NOC Engineer",
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
     "category": "adjacent",
     "matched_query": "NOC Engineer",
     "fetched_at": "2026-09-27T09:27:06.017937+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 65,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Schneider Electric is a large, verifiable industrial/tech company",
+      "'Specialist Service Representative II \u2014 Remote Support' maps to tech-support/helpdesk catalog role",
+      "'II' level and 'Data Centre' scope may expect some prior experience \u2014 moderate fit concern for fresher",
+      "Description truncated but title and company are consistent"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -895,11 +837,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-27T09:27:08.856732+00:00",
-    "score": 55,
+    "score": 35,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Description uses 'seasoned subject matter expert' language indicating experienced hire, not fresher-appropriate",
+      "NTT DATA is a real company so not a scam, but role likely expects significant SRE experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -917,11 +861,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-27T09:27:08.856823+00:00",
-    "score": 55,
+    "score": 40,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 'strong expertise' in SAP system administration suggesting experienced candidate",
+      "Colruyt Group India is a real company, role appears legitimate but likely not for freshers"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -939,11 +885,14 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-27T09:27:08.856907+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 65,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Salary range 6L-10L is realistic for Indian fresher in cloud/sysadmin role",
+      "Altus Group is a verifiable company",
+      "Description truncated so full requirements unclear"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -961,11 +910,14 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-27T09:27:08.856992+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 70,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title directly matches System Administrator role",
+      "Harmony United Medsolutions is a specific healthcare company in Hyderabad",
+      "Fresher-appropriate sysadmin position"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -983,11 +935,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-27T09:27:08.857120+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 70,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Duplicate of previous listing \u2014 same title, company, and description",
+      "Fresher-appropriate sysadmin role at a real healthcare company"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1005,11 +959,13 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710277+00:00",
-    "score": 55,
+    "score": 78,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Capco posting is genuine but description vague about experience level",
+      "SDET roles at Vrinda, Basepair, CoinDCX and Kobie imply experienced candidates, may exceed fresher expectations"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1027,11 +983,12 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710334+00:00",
-    "score": 55,
+    "score": 70,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Job title SDET suggests senior testing responsibilities, likely >1 year experience required"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1049,11 +1006,12 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710378+00:00",
-    "score": 55,
+    "score": 72,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Emphasis on enhancing existing Playwright framework indicates need for prior automation experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1071,11 +1029,12 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710421+00:00",
-    "score": 55,
+    "score": 68,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Crypto unicorn context and focus on Web3 product development imply higher skill expectations"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1093,33 +1052,12 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710464+00:00",
-    "score": 55,
+    "score": 75,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Specialist SDET",
-    "company": "AGDATA LP",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5897060355?utm_medium=api&utm_source=61450a73",
-    "description": "We are the most trusted provider of data collection and management, marketing program management, and analytical solutions for our Crop and Animal Health industry clients. With data services at the core\u2014surrounded by an extensible array of streamlined software solutions\u2014our unified platform represents over three decades of innovation and expertise in the agriculture, crop protection, specialty chemical and animal health industries. Backed by an entrepreneurial, creative and energetic work force\u2026",
-    "salary_min": 750000,
-    "salary_max": 750000,
-    "posted": "2026-09-24T21:20:36Z",
-    "key": "f5109b39da2d30a6",
-    "role_id": "qa-engineer",
-    "role_title": "QA / Test Engineer",
-    "category": "adjacent",
-    "matched_query": "SDET",
-    "fetched_at": "2026-09-27T09:27:10.710511+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Tech Hub launch and mention of being among first hires suggests growth opportunity but SDET role may need prior experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1140,8 +1078,11 @@
     "score": 55,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Only company overview provided, no role responsibilities or requirements",
+      "Title suggests SDET but no details",
+      "Unclear suitability for fresher"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1159,11 +1100,14 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710605+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 20,
+    "verdict": "high risk",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 8 years experience, far beyond fresher level",
+      "Job title QA Performance SDET but seniority mismatch",
+      "Likely not intended for entry\u2011level candidates"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1181,11 +1125,14 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710681+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title and description match QA Engineer role",
+      "Specifies automation testing with UI, BDD, Java \u2013 typical entry\u2011level skills",
+      "No explicit experience requirement, appears suitable for fresher"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1203,11 +1150,14 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710724+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Clear testing duties (test cases, automation framework, manual testing)",
+      "Company Stryker is reputable",
+      "No unrealistic experience requirement, fits fresher level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1225,11 +1175,12 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710767+00:00",
-    "score": 55,
+    "score": 70,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title indicates Engineer 3 level, may require >1 year experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1247,11 +1198,12 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710810+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 90,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Clear SDET role at GE HealthCare, suitable for fresher"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1269,11 +1221,12 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710853+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 90,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Duplicate of previous listing"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1291,11 +1244,12 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T09:27:10.710895+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 90,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "SDET Python role at Stryker, matches fresher QA"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1313,11 +1267,12 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-27T09:51:21.110589+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Offensive Security role at Entain, may require some experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1335,11 +1290,13 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-27T09:51:21.110639+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 88,
+    "verdict": "legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Explicitly requires 1-3 years experience in Vulnerability Assessment and Penetration Testing (VAPT)",
+      "Core responsibilities include identifying security vulnerabilities, validating risks, and supporting remediation"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1352,16 +1309,18 @@
     "salary_max": null,
     "posted": "2026-09-24T10:32:27Z",
     "key": "5b9094a4a9a41955",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-27T09:51:21.110672+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 72,
+    "verdict": "legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title is 'Application Security Specialist' focusing on application security and software development",
+      "Focuses on engineering and delivery within a large organization (Entain)"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1379,11 +1338,13 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-27T09:51:21.110782+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 92,
+    "verdict": "legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Explicitly titled 'Junior Security Analyst' with 1-2 years experience required",
+      "Requires practical exposure to VAPT, vulnerability management, and multi-attack surface testing"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1401,11 +1362,14 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-27T09:51:21.110815+00:00",
-    "score": 55,
+    "score": 85,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title is 'Offensive Security Specialist' which leans toward pentesting/VAPT",
+      "However, includes offensive/red teaming elements rather than pure defensive security",
+      "Company (Entain India) is legitimate but the 'do not contact recruiter directly' instruction is unusual and potentially a red flag"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1423,11 +1387,13 @@
     "category": "adjacent",
     "matched_query": "IT Help Desk",
     "fetched_at": "2026-09-27T09:51:27.407315+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 88,
+    "verdict": "legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title is 'IT Help Desk Specialist II' indicating technical support/service desk role",
+      "Involves troubleshooting for end users and ticket resolution at a pharmaceutical company (Teva Pharmaceuticals)"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1440,16 +1406,19 @@
     "salary_max": null,
     "posted": "2026-09-27T01:58:26Z",
     "key": "b3bade5cb35b3c4c",
-    "role_id": "tech-support",
-    "role_title": "Technical Support Executive",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
     "category": "adjacent",
     "matched_query": "IT Help Desk",
     "fetched_at": "2026-09-27T09:51:27.407371+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Identity & Access Management admin role aligns with system/admin duties",
+      "Company name generic but no scam indicators",
+      "Shift schedule unusual but not a red flag"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1467,11 +1436,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-27T09:51:30.172276+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Explicit QA Automation Engineer title",
+      "Morningstar is a known firm",
+      "No request for money or sensitive data"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1489,11 +1461,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-27T09:51:30.172327+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "QA Automation Engineer with specific tools (Playwright, Appium)",
+      "Capco is a reputable consulting firm",
+      "Description lacks scam cues"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1511,11 +1486,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-27T09:51:30.172361+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "UAT Testing falls under quality assurance/testing",
+      "Capco\u2019s brand adds credibility",
+      "No red\u2011flag language"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1533,11 +1511,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-27T09:51:30.172393+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "UAT Tester role is a QA function",
+      "Company details consistent with other listings",
+      "Legitimate posting without money\u2011upfront demand"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1555,11 +1536,15 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-27T09:51:30.172436+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 95,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Capco is a reputable consulting firm",
+      "No payment or sensitive document request",
+      "Automation Tester aligns with QA/Testing role",
+      "No excessive experience requirement evident"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1577,11 +1562,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-27T09:51:30.172476+00:00",
-    "score": 55,
+    "score": 45,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Company name not widely known but appears real",
+      "Title indicates senior QA role, implying >1 year experience",
+      "No payment request, but experience mismatch for fresher"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1599,11 +1587,15 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-27T09:51:30.172506+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 15,
+    "verdict": "high risk",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Unrealistic high pay for entry-level QA",
+      "Suspicious post-application email link requirement",
+      "Generic company name",
+      "Likely scam or low-quality posting"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1621,11 +1613,14 @@
     "category": "adjacent",
     "matched_query": "QA Engineer",
     "fetched_at": "2026-09-27T09:51:30.172727+00:00",
-    "score": 55,
+    "score": 65,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Explicit 2 years experience requirement",
+      "Company appears legitimate",
+      "No payment or sensitive data request"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1643,11 +1638,15 @@
     "category": "core",
     "matched_query": "SOC Analyst",
     "fetched_at": "2026-09-27T13:22:05.714545+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 95,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Entry-level SoC Analyst role matches 0-1 year experience",
+      "Company Jetwave Solutions appears legitimate",
+      "No payment request or suspicious language",
+      "Role description fits SOC Analyst catalog entry"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1665,11 +1664,14 @@
     "category": "core",
     "matched_query": "SOC Analyst",
     "fetched_at": "2026-09-27T13:22:05.714744+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Clear SOC responsibilities with SIEM and threat hunting",
+      "Company is known IT services firm",
+      "No scam indicators"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1687,11 +1689,14 @@
     "category": "core",
     "matched_query": "SOC Analyst",
     "fetched_at": "2026-09-27T13:22:05.714833+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 88,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Focus on XDR, SIEM monitoring and incident response",
+      "Check Point is reputable security vendor",
+      "Professional language, no red flags"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1709,11 +1714,14 @@
     "category": "core",
     "matched_query": "SOC Analyst",
     "fetched_at": "2026-09-27T13:22:05.714948+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Describes MDR monitoring, alert triage and incident analysis",
+      "Workstreet appears as staffing/outsourcing firm",
+      "Job text is standard, no suspicious requests"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1731,143 +1739,14 @@
     "category": "core",
     "matched_query": "SOC Analyst",
     "fetched_at": "2026-09-27T13:22:05.715019+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 78,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Site Reliability Engineer \u2013 Data Platforms",
-    "company": "Amgen",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5898479248?utm_medium=api&utm_source=61450a73",
-    "description": "Career Category Engineering Job Description Join Amgen\u2019s Mission of Serving Patients At Amgen, if you feel like you\u2019re part of something bigger, it\u2019s because you are. Our shared mission-to serve patients living with serious illnesses-drives all that we do. Since 1980, we\u2019ve helped pioneer the world of biotech in our fight against the world\u2019s toughest diseases. With our focus on four therapeutic areas -Oncology, Inflammation, General Medicine, and Rare Disease- we reach millions of patients each\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T21:14:25Z",
-    "key": "d441ce9eeb2f5457",
-    "role_id": "appsec",
-    "role_title": "AppSec Engineer",
-    "category": "core",
-    "matched_query": "Application Security Engineer",
-    "fetched_at": "2026-09-27T13:22:09.425055+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Site Reliability Engineer - Data Platforms",
-    "company": "Amgen",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5900354511?utm_medium=api&utm_source=61450a73",
-    "description": "Join Amgen's Mission of Serving Patients At Amgen, if you feel like you're part of something bigger, it's because you are. Our shared mission-to serve patients living with serious illnesses-drives all that we do. Since 1980, we've helped pioneer the world of biotech in our fight against the world's toughest diseases. With our focus on four therapeutic areas -Oncology, Inflammation, General Medicine, and Rare Disease- we reach millions of patients each year. As a member of the Amgen team, you'll\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-27T11:13:31Z",
-    "key": "30392b621d89b3ec",
-    "role_id": "appsec",
-    "role_title": "AppSec Engineer",
-    "category": "core",
-    "matched_query": "Application Security Engineer",
-    "fetched_at": "2026-09-27T13:22:09.425117+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Cloud Platform Engineer, Officer",
-    "company": "State Street",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5895350147?utm_medium=api&utm_source=61450a73",
-    "description": "Cloud Platform Engineering (CPE) | Enterprise Data Platforms Role Overview The Cloud Platform Engineering (CPE) organization is responsible for delivering secure, scalable, resilient, and standardized enterprise data platform capabilities across multi-cloud environments. This role is a platform engineering and operations position (Officer level) focused on: Platform enablement and standardization Cloud infrastructure and data platform operations Governance, risk, and compliance alignment Automa\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T21:22:36Z",
-    "key": "38f33c0cc9359c00",
-    "role_id": "appsec",
-    "role_title": "AppSec Engineer",
-    "category": "core",
-    "matched_query": "Application Security Engineer",
-    "fetched_at": "2026-09-27T13:22:09.425162+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Compliance Auditing & Monitoring Analyst",
-    "company": "Danaher",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5898262341?se=fqkycna68RGVB4NTXIxwTA&utm_medium=api&utm_source=61450a73&v=959D320ACACA995CD76442B5FCECE5203FD7412B",
-    "description": "This job is with Danaher, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Bring more to life. Are you ready to accelerate your potential and make a real difference within life sciences, diagnostics and biotechnology? Within Danaher the work our Life Science businesses do saves lives\u2014and we\u2019re all united by a shared commitment to innovate for tangible impact. And at Pall Corporation, one o\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T16:34:45Z",
-    "key": "82d1a3f8294ae37e",
-    "role_id": "grc",
-    "role_title": "GRC / Compliance Analyst",
-    "category": "core",
-    "matched_query": "Compliance Analyst",
-    "fetched_at": "2026-09-27T13:22:11.684055+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Compliance Analyst",
-    "company": "Experian",
-    "location": "Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5897335821?utm_medium=api&utm_source=61450a73",
-    "description": "Job Description The incumbent's responsibilities include managing day to day Compliance related activities including regulatory stakeholder management, open issue management, preparing deliverables for governance meetings and regulators, Compliance Testing etc. You'll have a strong desire to co-ordinate and partner with the Business and help to drive a focus on compliance. What you will be doing Coordination with respective Business Units during Regulatory Inspections, Audits, examinations etc.\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T02:48:54Z",
-    "key": "125cb276d4fbe3c9",
-    "role_id": "grc",
-    "role_title": "GRC / Compliance Analyst",
-    "category": "core",
-    "matched_query": "Compliance Analyst",
-    "fetched_at": "2026-09-27T13:22:11.684146+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Compliance Analyst",
-    "company": "River Financial",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5895058708?utm_medium=api&utm_source=61450a73",
-    "description": "At River we are building the world\u2019s most trusted financial institution to empower people to take ownership of their financial lives through Bitcoin, the world\u2019s only incorruptible digital money. We believe in a future where every person will have bitcoin savings, and every business will have bitcoin on the balance sheet. We obsessively design and build delightful products that help our clients buy, sell, secure, and use Bitcoin. We\u2019re looking for an ambitious and proactive candidate to join ou\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T16:14:02Z",
-    "key": "517f13cef51cd5d0",
-    "role_id": "grc",
-    "role_title": "GRC / Compliance Analyst",
-    "category": "core",
-    "matched_query": "Compliance Analyst",
-    "fetched_at": "2026-09-27T13:22:11.684218+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Consulting role centered on Microsoft Sentinel and Defender XDR",
+      "Microsoft is a trusted employer",
+      "Role is senior\u2011ish but still fits entry\u2011level SOC learning path"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1885,11 +1764,14 @@
     "category": "core",
     "matched_query": "Compliance Analyst",
     "fetched_at": "2026-09-27T13:22:11.684297+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title and description focus on SOX, investment, and regulatory compliance",
+      "Company names are recognizable and verifiable",
+      "No red\u2011flag language or fee requests"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1907,11 +1789,14 @@
     "category": "core",
     "matched_query": "Compliance Analyst",
     "fetched_at": "2026-09-27T13:22:11.684376+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 75,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Compliance analyst role for investment funds, typical GRC function",
+      "Employer (State Street) is a known financial institution",
+      "Description suggests some domain knowledge which may exceed strict fresher level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1929,11 +1814,14 @@
     "category": "core",
     "matched_query": "Compliance Analyst",
     "fetched_at": "2026-09-27T13:22:11.684510+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 70,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Goldman Sachs compliance analyst position, clearly GRC related",
+      "Large, reputable firm",
+      "Broad description may imply need for prior exposure"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1951,11 +1839,13 @@
     "category": "core",
     "matched_query": "Compliance Analyst",
     "fetched_at": "2026-09-27T13:22:11.684593+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 78,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "HPE compliance operations role, aligns with GRC duties",
+      "Hybrid office requirement but no suspicious demands"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1973,11 +1863,13 @@
     "category": "core",
     "matched_query": "Compliance Analyst",
     "fetched_at": "2026-09-27T13:22:11.684656+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 72,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Danaher compliance auditing role, fits GRC category",
+      "Well\u2011known corporate group, no scam indicators"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -1995,11 +1887,14 @@
     "category": "core",
     "matched_query": "Compliance Analyst",
     "fetched_at": "2026-09-27T13:22:11.684714+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Real company (Danaher) with specific operating company (Pall Corporation) mentioned",
+      "Title 'Compliance Auditing & Monitoring Analyst' aligns with GRC/compliance analyst catalog role",
+      "No heuristic flags or suspicious language; description emphasizes genuine corporate mission"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2017,99 +1912,14 @@
     "category": "core",
     "matched_query": "Compliance Analyst",
     "fetched_at": "2026-09-27T13:22:11.684777+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Associate Analyst , Supplier Compliance",
-    "company": "Colgate-Palmolive Company",
-    "location": "Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5894617272?utm_medium=api&utm_source=61450a73",
-    "description": "Relocation Assistance Offered Within Country Job Number 175921 - Mumbai, Maharashtra, India Who We Are Colgate-Palmolive Company is a global consumer products company operating in over 200 countries specialising in Oral Care, Personal Care, Home Care, Skin Care, and Pet Nutrition. Our products are trusted in more households than any other brand in the world, making us a household name! Join Colgate-Palmolive, a caring, innovative growth company reimagining a healthier future for people, their p\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T07:13:03Z",
-    "key": "d7d99aac25b8007a",
-    "role_id": "grc",
-    "role_title": "GRC / Compliance Analyst",
-    "category": "core",
-    "matched_query": "Compliance Analyst",
-    "fetched_at": "2026-09-27T13:22:11.684849+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Associate Analyst , Supplier Compliance",
-    "company": "Colgate-Palmolive",
-    "location": "Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5896368619?utm_medium=api&utm_source=61450a73",
-    "description": "Relocation Assistance Offered Within Country Job Number 175921 - Mumbai, Maharashtra, India Who We Are Colgate-Palmolive Company is a global consumer products company operating in over 200 countries specialising in Oral Care, Personal Care, Home Care, Skin Care, and Pet Nutrition. Our products are trusted in more households than any other brand in the world, making us a household name! Join Colgate-Palmolive, a caring, innovative growth company reimagining a healthier future for people, their p\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-24T11:14:50Z",
-    "key": "b1d268cf91403cb9",
-    "role_id": "grc",
-    "role_title": "GRC / Compliance Analyst",
-    "category": "core",
-    "matched_query": "Compliance Analyst",
-    "fetched_at": "2026-09-27T13:22:11.684917+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Apprentice",
-    "company": "State Street",
-    "location": "Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5898493246?utm_medium=api&utm_source=61450a73",
-    "description": "Job Description Grow your career at State Street From technology and product innovation to corporate responsibility and community development, we\u2019re making our mark on the financial services industry. We\u2019re a global company with diverse people and varied experiences with a network of over 35,000 employees spanning more than 100 markets. For us, success comes from the impact our employees have \u2013 on our clients, our communities and each other. We\u2019re committed to provide an inclusive environment w\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T21:23:46Z",
-    "key": "bb25b04f5654765f",
-    "role_id": "grc",
-    "role_title": "GRC / Compliance Analyst",
-    "category": "core",
-    "matched_query": "Compliance Analyst",
-    "fetched_at": "2026-09-27T13:22:11.685009+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Business Analyst \u2013 Customer Onboarding, Compliance & Surveillance Systems",
-    "company": "Barclays",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5899840268?utm_medium=api&utm_source=61450a73",
-    "description": "Job Description Purpose of the role To support the organisation, achieve its strategic objectives by the identification of business requirements and solutions that address business problems and opportunities. Accountabilities Identification and analysis of business problems and client requirements that require change within the organisation. Development of business requirements that will address business problems and opportunities. Collaboration with stakeholders to ensure that proposed solutio\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-26T21:10:00Z",
-    "key": "19ce4590e1d65894",
-    "role_id": "grc",
-    "role_title": "GRC / Compliance Analyst",
-    "category": "core",
-    "matched_query": "Compliance Analyst",
-    "fetched_at": "2026-09-27T13:22:11.685152+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Real company (Danaher) with specific operating company (Pall Corporation) mentioned",
+      "Title 'Compliance Auditing & Monitoring Analyst' aligns with GRC/compliance analyst catalog role",
+      "No heuristic flags or suspicious language; description emphasizes genuine corporate mission"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2127,11 +1937,14 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.358938+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Yardi Systems Administrator aligns with system admin duties",
+      "Company appears genuine and description is generic without red flags",
+      "Entry\u2011level or fresher\u2011friendly wording"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2149,11 +1962,14 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359032+00:00",
-    "score": 55,
+    "score": 40,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 6 years of experience, far beyond fresher level",
+      "Title suggests senior support role",
+      "Still a legitimate company but not suitable for a 0\u20111 yr candidate"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2171,11 +1987,14 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359079+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Mainframe WAS MQ admin typically needs specialized experience",
+      "No indication of entry\u2011level opportunity",
+      "Kyndryl is reputable but role exceeds fresher scope"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2193,11 +2012,14 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359122+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Mainframe z/OS admin is a niche, experienced position",
+      "Not targeted at freshers",
+      "Company is legitimate but role mismatch"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2215,11 +2037,13 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359164+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 88,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Thermo Fisher is a well\u2011known global company",
+      "Role description aligns with system administration tasks for a fresher"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2232,16 +2056,18 @@
     "salary_max": null,
     "posted": "2026-09-23T19:42:12Z",
     "key": "4ea61c003f9bed1d",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359209+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "SCG is an established corporation",
+      "Job focuses on user support and infrastructure assistance typical for entry\u2011level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2259,33 +2085,13 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359256+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 87,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "SAP Basis Consultant",
-    "company": "Insight Global",
-    "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5895239560?se=-JMCdXa68RGVB4NTXIxwTA&utm_medium=api&utm_source=61450a73&v=A9D43DED0408915F058B75EBB607BEE21DC2FFE8",
-    "description": "Role Overview The Senior SAP Basis Consultant supports the health, availability, performance, and evolution of our enterprise SAP landscape. The role bridges traditional SAP Basis administration with modern cloud architecture, covering SAP Business Technology Platform (BTP) administration and the migration of legacy SAP Process Orchestration (PO) workloads to SAP BTP Integration Suite. It also includes performance tuning and Data Volume Management (DVM) across SAP S/4HANA, BW/4HANA, and related\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T19:41:08Z",
-    "key": "23851c11ade930eb",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
-    "category": "adjacent",
-    "matched_query": "System Administrator",
-    "fetched_at": "2026-09-27T13:22:16.359299+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Kyndryl is a reputable IT services firm",
+      "Mainframe/DB2 system programming fits entry\u2011level system admin track"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2303,55 +2109,13 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359342+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 90,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Systems Administrator",
-    "company": "M0",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5895058405?utm_medium=api&utm_source=61450a73",
-    "description": "Intro M0 is the onchain solution to build your own tokenized finance products. It gives businesses everything they need to launch a stablecoin built around their product, with separate, configurable layers for application, distribution, and issuance. Choose your regulated issuer, with the option to switch them later. Design how your stablecoin behaves with templates and custom logic. Tap shared liquidity across the network from day one. Other stablecoin platforms bundle every layer into a singl\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T16:13:56Z",
-    "key": "99c1b17ea3a12ffe",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
-    "category": "adjacent",
-    "matched_query": "System Administrator",
-    "fetched_at": "2026-09-27T13:22:16.359383+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Infrastructure Specialist",
-    "company": "Kyndryl",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5894389944?se=-JMCdXa68RGVB4NTXIxwTA&utm_medium=api&utm_source=61450a73&v=6BE670E3A592111975261B82B6B8D7E8F363A474",
-    "description": "This job is with Kyndryl, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world's leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster innovation, and a lasting competitive edg\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T04:31:06Z",
-    "key": "7890d5ca380ec289",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
-    "category": "adjacent",
-    "matched_query": "System Administrator",
-    "fetched_at": "2026-09-27T13:22:16.359425+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Launch Ventures is a legitimate consulting firm",
+      "Remote system admin role matches entry\u2011level expectations"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2369,55 +2133,13 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359473+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 80,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "System Administrator I",
-    "company": "PDI Technologies",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5897045783?utm_medium=api&utm_source=61450a73",
-    "description": "At PDI Technologies, we empower some of the world's leading convenience retail and petroleum brands with cutting-edge technology solutions that drive growth and operational efficiency. By \u201cConnecting Convenience\u201d across the globe, we empower businesses to increase productivity, make more informed decisions, and engage faster with customers through loyalty programs, shopper insights, and unmatched real-time market intelligence via mobile applications, such as GasBuddy. We\u2019re a global team commit\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-24T21:13:01Z",
-    "key": "3ef5e1a7d33462e0",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
-    "category": "adjacent",
-    "matched_query": "System Administrator",
-    "fetched_at": "2026-09-27T13:22:16.359515+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Information Technology Support Engineer II",
-    "company": "Qapita",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/land/ad/5895239485?se=-JMCdXa68RGVB4NTXIxwTA&utm_medium=api&utm_source=61450a73&v=44563CE7D5E53B98762113FA3AFED078CAA4B60F",
-    "description": "About Qapita Qapita is a leading equity management platform with offices across Singapore, India, Indonesia, and the United States. We help companies manage cap tables, ESOPs, and equity transactions while enabling liquidity opportunities for shareholders and ESOP holders through structured buybacks and secondary transactions. Backed by leading global investors, Qapita is building the infrastructure for ownership and private market participation. About the Role We are looking for a highly skill\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T19:41:02Z",
-    "key": "0faef9b5994a6116",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
-    "category": "adjacent",
-    "matched_query": "System Administrator",
-    "fetched_at": "2026-09-27T13:22:16.359559+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Title matches sysadmin role",
+      "Company Brightstar Lottery is real and description indicates secure technology environment"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2435,55 +2157,15 @@
     "category": "adjacent",
     "matched_query": "System Administrator",
     "fetched_at": "2026-09-27T13:22:16.359641+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 95,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Data Engineer - Control M",
-    "company": "Acme Services Private Limited",
-    "location": "Chandni Chowk, North Delhi",
-    "url": "https://www.adzuna.in/details/5894230937?utm_medium=api&utm_source=61450a73",
-    "description": "Job Description: Develop and maintain Oracle PL/SQL procedures, packages, functions, triggers, and complex SQL queries. Build and support data extraction, transformation, and loading (ETL) processes. Develop Python scripts for data processing, automation, validation, and reconciliation. Schedule, monitor, and troubleshoot batch jobs using Control-M. Perform data analysis, data validation, and issue investigation across source and target systems. Optimize SQL queries, stored procedures, and data\u2026",
-    "salary_min": 1300000,
-    "salary_max": 1400000,
-    "posted": "2026-09-22T23:45:38Z",
-    "key": "8852d1c8e0c2375f",
-    "role_id": "qa-engineer",
-    "role_title": "QA / Test Engineer",
-    "category": "adjacent",
-    "matched_query": "QA Engineer",
-    "fetched_at": "2026-09-27T13:22:17.228960+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Java Developer - Systems Engineer",
-    "company": "Autozone",
-    "location": "New Delhi, Delhi",
-    "url": "https://www.adzuna.in/details/5899051843?utm_medium=api&utm_source=61450a73",
-    "description": "Job Description About AutoZone AutoZone is the nation's leading retailer and a leading distributor of automotive replacement parts and accessories with more than 6,000 stores in the US, Puerto Rico, Mexico, and Brazil. Each store carries an extensive line of cars, sport utility vehicles, vans, and light trucks, including new and remanufactured hard parts, maintenance items, and accessories. We also sell automotive diagnostic and repair software through ALLDATA, diagnostic and repair information\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-26T07:37:26Z",
-    "key": "4a9c42efcca923b9",
-    "role_id": "qa-engineer",
-    "role_title": "QA / Test Engineer",
-    "category": "adjacent",
-    "matched_query": "QA Engineer",
-    "fetched_at": "2026-09-27T13:22:17.229081+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Real company with specific location",
+      "Job title matches sysadmin role",
+      "Responsibilities align with entry-level sysadmin tasks",
+      "No red flags or requests for money"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2501,11 +2183,15 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T13:22:18.499079+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 95,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Matches QA Automation Engineer catalog role",
+      "Company is legitimate",
+      "Responsibilities align with entry-level QA testing",
+      "No red flags"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2523,11 +2209,15 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T13:22:18.499429+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 90,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Matches QA/SDET catalog role",
+      "Company appears legitimate",
+      "Responsibilities align with entry-level to mid-level QA",
+      "No red flags"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2545,11 +2235,13 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T13:22:18.499475+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 88,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Clear focus on test case design, manual and automated testing, suitable for freshers",
+      "Company Epicor is known and description is specific"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2567,55 +2259,13 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T13:22:18.499560+00:00",
-    "score": 55,
+    "score": 70,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Presales Engineer",
-    "company": "Weekday AI",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5898178945?utm_medium=api&utm_source=61450a73",
-    "description": "This role is for one of Weekday\u2019s clients Min Experience: 4 years Location: Bengaluru JobType: full-time We are hiring a customer-facing Presales Engineer to lead technical discovery, tailored demos, proof-of-concepts, and solution design for enterprise prospects evaluating our software testing and quality-engineering platform. The ideal candidate combines a strong technical foundation in QA space with customer-facing solutioning experience. They should be able to engage credibly with engineeri\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T16:16:22Z",
-    "key": "ef11561d1f496a90",
-    "role_id": "qa-engineer",
-    "role_title": "QA / Test Engineer",
-    "category": "adjacent",
-    "matched_query": "SDET",
-    "fetched_at": "2026-09-27T13:22:18.499602+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Presales Engineer",
-    "company": "Weekday",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5899850394?utm_medium=api&utm_source=61450a73",
-    "description": "This role is for one of our clients Industry: Software Development Seniority level: Mid-senior level Min Experience: 4 years Location: Bengaluru JobType: full-time \u20b925,00,000 - \u20b935,00,000 a year We are hiring a customer-facing Presales Engineer to lead technical discovery, tailored demos, proof-of-concepts, and solution design for enterprise prospects evaluating our software testing and quality-engineering platform. The ideal candidate combines a strong technical foundation in QA space with cus\u2026",
-    "salary_min": 3500000,
-    "salary_max": 3500000,
-    "posted": "2026-09-26T21:18:17Z",
-    "key": "250f5a167a6f914e",
-    "role_id": "qa-engineer",
-    "role_title": "QA / Test Engineer",
-    "category": "adjacent",
-    "matched_query": "SDET",
-    "fetched_at": "2026-09-27T13:22:18.499646+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Internship title but description is vague and mixes AI automation marketing language",
+      "Company name unclear, could be a generic posting"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2633,55 +2283,13 @@
     "category": "adjacent",
     "matched_query": "SDET",
     "fetched_at": "2026-09-27T13:22:18.499729+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 90,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Financial Controller - Power Sector",
-    "company": "Radha TMT",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/land/ad/5897295879?se=YmDtdna68RGCw6kuTDrJlg&utm_medium=api&utm_source=61450a73&v=0E25F4258C3D7E2030C538AAB25F3226A8D7773C",
-    "description": "1. Position Overview The Financial Controller will serve as the strategic financial leader overseeing group-level (Energy , Real Estate & M&A) consolidation, financial reporting, governance, and treasury operations. This role is responsible for driving financial performance, managing multi-entity structures (SPVs, Subsidiaries, JVs), leading M&A financial due diligence, and ensuring absolute compliance with Indian Accounting Standards (Ind AS), RERA, tax laws, and lender covenants. 2. Key Respo\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T01:56:03Z",
-    "key": "afb3440b4ac732e5",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.621668+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Jr RA Executive",
-    "company": "ARNI MEDICA PVT LTD",
-    "location": "Shaikpet, Hyderabad",
-    "url": "https://www.adzuna.in/details/5900003679?utm_medium=api&utm_source=61450a73",
-    "description": "Arni Medica is a leading medical device manufacturer specializing in contract manufacturing, new product development, and high-quality production of nephrology and healthcare products. We are looking for motivated and detail-oriented fresh graduates to join our Regulatory Affairs (RA) team. This role offers exposure to medical device regulations, product registrations, technical documentation, and compliance processes. Requirements Assist in preparation and compilation of regulatory dossiers fo\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-27T03:53:42Z",
-    "key": "1f6d3060a2feae93",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.621776+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Explicit QA automation focus with Playwright/Appium, matches entry\u2011level QA role",
+      "Capco/Wipro brand adds credibility"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2694,170 +2302,17 @@
     "salary_max": null,
     "posted": "2026-09-23T06:56:25Z",
     "key": "89d247bbdfe2041f",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
+    "role_id": "soc-analyst",
+    "role_title": "SOC Analyst",
+    "category": "core",
     "matched_query": "IS Auditor",
     "fetched_at": "2026-09-27T13:22:19.621849+00:00",
-    "score": 55,
+    "score": 70,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Billing and Accountant Executive",
-    "company": "VOIP OFFICE",
-    "location": "Kyasaram, Hyderabad",
-    "url": "https://www.adzuna.in/details/5896283720?utm_medium=api&utm_source=61450a73",
-    "description": "Job Details \u2022 Organization: VOIP Office Telecommunications Pvt Ltd \u2022 Role: Billing & Accountant \u2022 Location: TRENDZ AXIS, AV HUB, 5th Floor, Plot No 1-89/A/7, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081 \u2022 Working Timings: Night shift \u2022 Experience: 2 - 3yrs \u2022 Qualification: Graduation (B.com Preferred) Key Responsibilities 1. Billing & Invoicing \u2022 Prepare and generate accurate customer invoices on time \u2022 Maintain billing records and supporting documentation \u2022 Follow up with clients re\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-24T10:14:03Z",
-    "key": "fb1aa852e8cce7a7",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.621928+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Accountant - Insurance Industry",
-    "company": "Ellappan Aananthan ",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5897783884?utm_medium=api&utm_source=61450a73",
-    "description": "Description We are seeking a detail-oriented and experienced Accountant to join our team in the insurance industry. The ideal candidate will have a strong background in accounting practices specific to insurance and will be responsible for managing financial statements, ensuring compliance, and providing valuable financial insights. Responsibilities Prepare and analyze financial statements for insurance products. Ensure compliance with accounting regulations and standards in the insurance indus\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T07:46:25Z",
-    "key": "1ff67d4ff660b956",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.622027+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Tax Analyst, Withholding Tax",
-    "company": "Amazon",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5898179015?utm_medium=api&utm_source=61450a73",
-    "description": "Description Amazon is seeking a Tax Analyst to join its Withholding Tax team within the Foreign Reporting Group in our Hyderabad office. As a member of the Withholding Tax team, the Tax Analyst will support the global local tax teams on various projects and deliverables to serve our internal customers. Areas of responsibility include compliance, research and analysis. A highly organized, self-starter with excellent communication and time management skills will be successful on this team. Key jo\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T16:16:23Z",
-    "key": "cd5fe13885d42683",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.622101+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Accessibility Consultant",
-    "company": "Deque Systems",
-    "location": "Shaikpet, Hyderabad",
-    "url": "https://www.adzuna.in/details/5895257174?utm_medium=api&utm_source=61450a73",
-    "description": "Career Fulfillment & Culture People come to work for Deque because of what we do: enable businesses and organizations to make their sites and apps accessible to everyone, including people with disabilities. The personal fulfillment employees feel here is unparalleled. In addition to the altruistic nature of our jobs, the organizational structure is extremely flat and welcoming. Women-owned and operated, Deque CEO Preety Kumar is internationally revered for her down-to-earth personality and work\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T20:12:59Z",
-    "key": "603f3af104025366",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.622170+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Entity Accountant",
-    "company": "Eastman",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5897358868?utm_medium=api&utm_source=61450a73",
-    "description": "Role Description The EMEA and APR controlling departments are a key component of Eastman\u2019s finance organization supporting over 5 billion dollars of revenue, manufacturing plants and a number of sales offices. The EMEA and APR controlling departments are based in The Netherlands and Belgium (EMEA) and in Singapore, China, Japan, Korea, Thailand, Taiwan and Malaysia (APR) and is supported by our Finance Department in India (Hyderabad). The controlling departments in EMEA and APR are responsible \u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T03:13:58Z",
-    "key": "c4ac668e4ea09a97",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.622257+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Marketing Coordinator",
-    "company": "Ayr Energy",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5895388532?utm_medium=api&utm_source=61450a73",
-    "description": "About the Role We are looking for an organized, proactive marketing team member to support Ayr Energy\u2019s marketing and customer experience activities in India. This is a hands-on role for someone who enjoys making things happen. You will work closely with our U.S. marketing team, India-based employees, factory teams, executives, vendors, and other stakeholders to coordinate customer visits, events, brand activities, content production, and other local marketing needs. You will be the on-the-grou\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T21:46:37Z",
-    "key": "5de58b5f63b6346d",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.622310+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Supplier Quality Engineer M/F",
-    "company": "Safran",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5896367833?utm_medium=api&utm_source=61450a73",
-    "description": "Supplier Quality Engineer M/F Job details General information Entity Safran is an international high-technology group operating in the fields of aerospace (propulsion, equipment and interiors), space and defense. Its mission is to contribute sustainably to a safer world, where air transport becomes ever more environmentally friendly, comfortable and accessible. Present on every continent, the Group employs 110,000 people and generated 31.3 billion in revenue in 2025. Safran holds, either indepe\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-24T11:14:10Z",
-    "key": "7fa233093498b864",
-    "role_id": "it-auditor",
-    "role_title": "IT Auditor",
-    "category": "adjacent",
-    "matched_query": "IS Auditor",
-    "fetched_at": "2026-09-27T13:22:19.622357+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Wipro L4 cyber security analyst implies senior level, likely >1\u202fyear experience; still a legitimate posting"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2870,60 +2325,21 @@
     "salary_max": 600000,
     "posted": "2026-09-23T23:46:49Z",
     "key": "80c1bcb58cde7486",
-    "role_id": "soc-analyst",
-    "role_title": "SOC Analyst",
-    "category": "core",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
     "matched_query": "Security Operations Analyst",
     "fetched_at": "2026-09-28T10:03:45.121342+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 75,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Security Operations Analyst",
-    "company": "Brennan IT Intranet",
-    "location": "Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5897066634?utm_medium=api&utm_source=61450a73",
-    "description": "22nd September, 2026 Security Operations Analyst L1 Brennan. Where true performance thrives. At Brennan, we believe that how technology is delivered is every bit as important as what the technology is. We focus on creating real and relevant value for customers with solutions that fit their specific needs and always reflect their true interests. It\u2019s a claim backed by our True Performance System \u2013 a way of working engineered to get us closer, and deliver better, for our customers and their actua\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-24T21:27:10Z",
-    "key": "a4cbbae66937558b",
-    "role_id": "soc-analyst",
-    "role_title": "SOC Analyst",
-    "category": "core",
-    "matched_query": "Security Operations Analyst",
-    "fetched_at": "2026-09-28T10:03:45.121416+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Security Operations Analyst",
-    "company": "Alteryx",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5895357805?utm_medium=api&utm_source=61450a73",
-    "description": "Meet the Moment with Alteryx We're living through a once-in-a-generation shift in how work gets done. Data, automation, and AI are quickly becoming the center of every business decision - and Alteryx is leading the transformation. You'll be working on the challenges that sit at the heart of modern business. No matter your role, the work you do will help organizations move faster, see more clearly, and tackle questions that used to feel impossible. If you're ready to meet the moment with innovat\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T21:28:16Z",
-    "key": "2419b47e12251e8a",
-    "role_id": "soc-analyst",
-    "role_title": "SOC Analyst",
-    "category": "core",
-    "matched_query": "Security Operations Analyst",
-    "fetched_at": "2026-09-28T10:03:45.121490+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Real company",
+      "Relevant OS/networking skills",
+      "Security awareness mentioned",
+      "No red flags",
+      "Experience fits fresher level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2941,11 +2357,14 @@
     "category": "core",
     "matched_query": "Security Operations Analyst",
     "fetched_at": "2026-09-28T10:03:45.121529+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 30,
+    "verdict": "high risk",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 7 years experience, not suitable for fresher",
+      "Senior SOC L3 Lead role",
+      "Legitimate company"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2963,11 +2382,15 @@
     "category": "core",
     "matched_query": "Security Operations Analyst",
     "fetched_at": "2026-09-28T10:03:45.121570+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 85,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Clear SOC analyst role",
+      "Real company and remote-first",
+      "No red flags",
+      "Suitable for entry-level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -2980,16 +2403,18 @@
     "salary_max": null,
     "posted": "2026-09-25T06:47:50Z",
     "key": "a6549c9ac758959c",
-    "role_id": "soc-analyst",
-    "role_title": "SOC Analyst",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Security Operations Analyst",
     "fetched_at": "2026-09-28T10:03:45.121662+00:00",
-    "score": 55,
+    "score": 45,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Microsoft 365 security admin role, likely requires prior experience with Defender/Purview",
+      "Company appears legitimate but position not clearly entry\u2011level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3007,11 +2432,13 @@
     "category": "core",
     "matched_query": "Security Operations Analyst",
     "fetched_at": "2026-09-28T10:03:45.121734+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Supervisor title indicates senior/lead responsibilities",
+      "Job description lacks entry\u2011level details"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3024,16 +2451,18 @@
     "salary_max": null,
     "posted": "2026-09-23T15:39:51Z",
     "key": "4432a75e92a0f2b1",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Security Consultant",
     "fetched_at": "2026-09-28T10:03:49.195448+00:00",
-    "score": 55,
+    "score": 25,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Mainframe security consultant needs hands\u2011on ACF2/RACF experience",
+      "Contract length and skill set suggest >1\u202fyear experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3046,16 +2475,18 @@
     "salary_max": null,
     "posted": "2026-09-24T15:18:19Z",
     "key": "579a2aced76a3a18",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Security Consultant",
     "fetched_at": "2026-09-28T10:03:49.195510+00:00",
-    "score": 55,
+    "score": 20,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "IBM ISIM consultant role requires extensive product knowledge and custom development",
+      "Not suitable for a fresher"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3068,126 +2499,18 @@
     "salary_max": null,
     "posted": "2026-09-27T18:07:23Z",
     "key": "ddac1626f19fa8a7",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Security Consultant",
     "fetched_at": "2026-09-28T10:03:49.195560+00:00",
-    "score": 55,
+    "score": 15,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "ISIM Security Consultant",
-    "company": "IBM",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5897783747?utm_medium=api&utm_source=61450a73",
-    "description": "Job Description: Location: PAN India Skills: IBM Security Identity Manager (ISIM), IBM Security Directory Integrator (ISDI), IBM Security Verify Access (ISVA), IBM DB2, IBM Security Directory Server (ISDS), Java - Should be experienced in end-to-end installation and configuration of ISIM, DB2, ISDS, ISDI - Should have experience in DR set ups and execution for these products. - Should have experience in Custom Adapter Development for ISIM Adapters using ISDI. - Should have experience in writing\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T07:46:24Z",
-    "key": "893c71f6c7d9f807",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Security Consultant",
-    "fetched_at": "2026-09-28T10:03:49.195604+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Security Consultant-Identity & Access Management Services",
-    "company": "IBM",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5894639186?utm_medium=api&utm_source=61450a73",
-    "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and crea\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T07:49:02Z",
-    "key": "e1452cc615c08ef6",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Security Consultant",
-    "fetched_at": "2026-09-28T10:03:49.195652+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Security Consultant-Identity & Access Management Services - One Identity",
-    "company": "IBM",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5894639161?utm_medium=api&utm_source=61450a73",
-    "description": "Job Description : Identity Governance & Administration (IGA) \u2022 Strong theoretical and practical expertise in IAM concepts, particularly: o User identity lifecycle management (Joiner\u2013Mover\u2013Leaver processes) oRole-based and policy-based access control o Access certification and compliance management \u2022Extensive hands-on experience with One Identity Manager: o Design and implementation of identity lifecycle workflows o IT Shop, request & approval workflows oAttestation campaigns o Role modeling & g\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T07:49:02Z",
-    "key": "06405942b96e1798",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Security Consultant",
-    "fetched_at": "2026-09-28T10:03:49.195724+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Presales Consultant",
-    "company": "VFM Systems and Services  Ltd",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5895239754?se=uMlr5SO78RGGQ9u1mQKVdw&utm_medium=api&utm_source=61450a73&v=76151BE206DC825B281B2981555E07D1C15FFAE4",
-    "description": "Presales Consultant - Cyber Security Experience : 2 yrs Location : Bengaluru Job Description The selected person will work with the sales team to open and develop opportunities for solutions in the Cyber Security in the areas of Firewalls, Cloud Security, Vulnerability management, Advanced Endpoint protection, APT protection, PUM, SIEM etc. The candidate will present solutions to the customer in the above areas, understand customer requirements, successfully set or modify customer requirements.\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T19:41:33Z",
-    "key": "57a20d2a69836eda",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Security Consultant",
-    "fetched_at": "2026-09-28T10:03:49.195779+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Assistant Professor - Robotics",
-    "company": "Presidency University Bangalore",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5895239242?se=uMlr5SO78RGGQ9u1mQKVdw&utm_medium=api&utm_source=61450a73&v=C012E8BF47CD2F298184568E82044702E6729F2E",
-    "description": "Position Summary The Department of Artificial Intelligence & Machine Learning (AIML) at Presidency University invites applications for the position of Assistant Professor \u2013 Robotics & Intelligent Systems . The successful candidate will play a key role in teaching, research, curriculum development, industry collaboration, and student mentoring in the areas of robotics, autonomous systems, AI-driven automation, and intelligent machines. The position offers an exciting opportunity to contribute to\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T19:40:17Z",
-    "key": "f208bb037bcbb901",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Security Consultant",
-    "fetched_at": "2026-09-28T10:03:49.195829+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Mainframe logical security consultant explicitly asks for 6\u20118\u202fyears experience",
+      "Clearly beyond fresher level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3205,11 +2528,13 @@
     "category": "core",
     "matched_query": "IT Risk Analyst",
     "fetched_at": "2026-09-28T10:03:53.083836+00:00",
-    "score": 55,
+    "score": 40,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Senior\u2011level title and responsibilities exceed fresher experience",
+      "Micron is a reputable company but role expects governance and risk management expertise"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3227,11 +2552,13 @@
     "category": "core",
     "matched_query": "IT Risk Analyst",
     "fetched_at": "2026-09-28T10:03:53.083906+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Explicitly senior data/business analyst for AML, likely requires >1\u202fyear experience",
+      "Job description emphasizes end\u2011to\u2011end analysis and complex SQL tasks"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3249,11 +2576,13 @@
     "category": "core",
     "matched_query": "IT Risk Analyst",
     "fetched_at": "2026-09-28T10:03:53.083952+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Due diligence and IT risk focus suggests seasoned analyst role",
+      "Grade level and cross\u2011functional responsibilities imply more experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3271,11 +2600,12 @@
     "category": "adjacent",
     "matched_query": "Network Operations Analyst",
     "fetched_at": "2026-09-28T10:03:55.943235+00:00",
-    "score": 55,
+    "score": 50,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "NOC Engineer \u2013 Tier 2.5 indicates intermediate skill set, not typical fresher"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3293,11 +2623,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-28T10:04:00.744079+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 70,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Network Administrator entry\u2011level duties, company appears legitimate",
+      "Requirements align with typical fresh graduate skill set"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3315,11 +2647,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-28T10:04:00.744171+00:00",
-    "score": 55,
+    "score": 70,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Legitimate company and clear admin responsibilities",
+      "Requires strong Windows Server, Azure and M365 knowledge which may exceed typical fresher skillset"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3337,11 +2671,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-28T10:04:00.744246+00:00",
-    "score": 55,
+    "score": 60,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Well\u2011known corporate employer suggests legitimacy",
+      "Job description vague but implies infrastructure admin duties; likely expects more than entry\u2011level experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3359,11 +2695,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-28T10:04:00.744290+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Explicit experience requirement of 5\u201112 years makes it unsuitable for freshers",
+      "Role is specialized Cisco UC admin, not typical entry\u2011level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3381,33 +2719,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-28T10:04:00.744327+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 20,
+    "verdict": "high risk",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Ai and IT specialist",
-    "company": "iThink Media",
-    "location": "Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/land/ad/5900616206?se=Cr9Z7CO78RGCw6kuTDrJlg&utm_medium=api&utm_source=61450a73&v=258B981FE73F2F0B1EA00329F89273C751A8E087",
-    "description": "Company Description iThink Media is an independent advertising agency based in Mumbai, focused on delivering real visibility and measurable results for brands. Originally specialized in Out-of-Home advertising, the company has evolved into a full 360-degree media agency, offering outdoor, digital, activations, and end-to-end brand strategy. iThink Media is distinguished by its data-driven planning, using insights and performance tracking to help brands spend smarter and achieve better outcomes \u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-27T18:06:28Z",
-    "key": "1910937c97d4dff5",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
-    "category": "adjacent",
-    "matched_query": "Network Administrator",
-    "fetched_at": "2026-09-28T10:04:00.744363+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires 6 years of experience and US shift work, far beyond fresher level",
+      "Very specific senior\u2011level expectations"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3425,55 +2743,13 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-28T10:04:00.744401+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Sales Operations Executive",
-    "company": "BEST BUSINESS COMPANY",
-    "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5895238854?se=Cr9Z7CO78RGCw6kuTDrJlg&utm_medium=api&utm_source=61450a73&v=30AEDF05C0A492BF73F5ED113FAE488221D56C8A",
-    "description": "Company Description: Best Business company is a leading B2B distributor and dealer of high-quality newsprint and commercial paper products. We bridge the gap between paper mills and major publishing houses and media companies. We are seeking a detail-oriented and driven professional to manage client accounts, coordinate logistics, and drive sales growth in a fast-paced market. Role Description: As a Sales & Operations Coordinator, you will handle the day-to-day commercial and logistics operatio\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-23T19:37:50Z",
-    "key": "56ce9e767d23fd4a",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
-    "category": "adjacent",
-    "matched_query": "Network Administrator",
-    "fetched_at": "2026-09-28T10:04:00.744472+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Oracle Database Administrator",
-    "company": "Huxley",
-    "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5898128076?se=Cr9Z7CO78RGCw6kuTDrJlg&utm_medium=api&utm_source=61450a73&v=C2C55483E441D845A9205817A472C7033128CFD2",
-    "description": "Overview Join a cloud infrastructure organization responsible for delivering enterprise-grade database services and platform capabilities to internal engineering teams. The team operates and enhances large-scale database environments that support critical business applications, while driving modernization, automation, and cloud adoption initiatives. This role is focused on Oracle database platform engineering, administration, performance optimization, high availability, and cloud migration proj\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-25T15:22:58Z",
-    "key": "813aa63320466134",
-    "role_id": "sysadmin",
-    "role_title": "System / Network Admin",
-    "category": "adjacent",
-    "matched_query": "Network Administrator",
-    "fetched_at": "2026-09-28T10:04:00.744510+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "requires 4-5 years experience, not fresher-friendly",
+      "senior system/network admin role"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3491,11 +2767,12 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-28T10:04:00.744548+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "cloud database admin, expects significant experience"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -3513,11 +2790,12 @@
     "category": "adjacent",
     "matched_query": "Network Administrator",
     "fetched_at": "2026-09-28T10:04:00.744586+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "senior system administrator position, 4-5 years required"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -5625,11 +4903,12 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-30T09:55:16.017857+00:00",
-    "score": 55,
+    "score": 30,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires strong external/internal penetration testing experience and certifications, clearly beyond fresher level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -5642,16 +4921,17 @@
     "salary_max": null,
     "posted": "2026-09-25T15:22:00Z",
     "key": "9ef1ec5f8e4418dc",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-30T09:55:16.017908+00:00",
-    "score": 55,
+    "score": 20,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Explicitly asks for 6 years experience and senior responsibilities, not suitable for 0-1 year candidates"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -5669,33 +4949,12 @@
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-30T09:55:16.017940+00:00",
-    "score": 55,
-    "verdict": "use caution",
+    "score": 70,
+    "verdict": "likely legitimate",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
-  },
-  {
-    "source": "adzuna",
-    "title": "Chief Information Security Officer",
-    "company": "DOHA BANK",
-    "location": "Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/land/ad/5900875538?se=lPUWCbW88RGEKO3QssVymg&utm_medium=api&utm_source=61450a73&v=C6989DB025EDE42986A370B6FF568E266B8F376D",
-    "description": "Chief Information Security Officer Location: Nariman Point, Mumbai Role Objective: The incumbent will work closely with the Group Chief Information Security Officer and Country Manager India in efficient formulation, implementation and management of the Bank's information security policy(s) and compliance programs pertaining to India Operations. The incumbent will ensure efficient management of Information Security Governance, in line with the Reserve Bank of India and other statutory / regulat\u2026",
-    "salary_min": null,
-    "salary_max": null,
-    "posted": "2026-09-28T02:01:58Z",
-    "key": "39bcd8c0eb2ac32c",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
-    "category": "core",
-    "matched_query": "Penetration Tester",
-    "fetched_at": "2026-09-30T09:55:16.017971+00:00",
-    "score": 55,
-    "verdict": "use caution",
-    "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Company details provided, no red flags, and description appears open to fresh talent in a fintech VAPT role"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -5708,16 +4967,17 @@
     "salary_max": null,
     "posted": "2026-09-28T18:06:29Z",
     "key": "442fdeecb9242e2e",
-    "role_id": "vapt",
-    "role_title": "VAPT / Pentester",
+    "role_id": "appsec",
+    "role_title": "AppSec Engineer",
     "category": "core",
     "matched_query": "Penetration Tester",
     "fetched_at": "2026-09-30T09:55:16.018001+00:00",
-    "score": 55,
+    "score": 25,
     "verdict": "use caution",
     "reasons": [
-      "AI scoring unavailable this run \u2014 no obvious red flags found, verify manually"
-    ]
+      "Requires extensive mobile security experience and enterprise Android expertise, far beyond entry\u2011level"
+    ],
+    "role_confirmed": true
   },
   {
     "source": "adzuna",
@@ -11851,15 +11111,19 @@
     "candidate_role_id": "grc",
     "candidate_role_title": "GRC / Compliance Analyst",
     "candidate_category": "core",
-    "role_id": null,
-    "role_title": null,
-    "category": null,
-    "role_confirmed": false,
+    "role_id": "grc",
+    "role_title": "GRC / Compliance Analyst",
+    "category": "core",
+    "role_confirmed": true,
     "matched_query": "Information Security Analyst",
     "fetched_at": "2026-10-05T11:13:11.491135+00:00",
-    "score": null,
-    "verdict": null,
-    "reasons": null
+    "score": 85,
+    "verdict": "likely legitimate",
+    "reasons": [
+      "Big reputable employer (Deutsche Bank)",
+      "Role focuses on identity & access governance, matching GRC",
+      "No scam indicators"
+    ]
   },
   {
     "source": "adzuna",
@@ -11875,15 +11139,19 @@
     "candidate_role_id": "tech-support",
     "candidate_role_title": "Technical Support Executive",
     "candidate_category": "adjacent",
-    "role_id": null,
-    "role_title": null,
-    "category": null,
-    "role_confirmed": false,
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "role_confirmed": true,
     "matched_query": "IT Help Desk",
     "fetched_at": "2026-10-05T11:13:14.129447+00:00",
-    "score": null,
-    "verdict": null,
-    "reasons": null
+    "score": 80,
+    "verdict": "likely legitimate",
+    "reasons": [
+      "Established company (NCR Atleos)",
+      "Help\u2011desk/IT support responsibilities",
+      "No request for money or sensitive data"
+    ]
   },
   {
     "source": "adzuna",
@@ -11899,15 +11167,19 @@
     "candidate_role_id": "tech-support",
     "candidate_role_title": "Technical Support Executive",
     "candidate_category": "adjacent",
-    "role_id": null,
-    "role_title": null,
-    "category": null,
-    "role_confirmed": false,
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "role_confirmed": true,
     "matched_query": "IT Help Desk",
     "fetched_at": "2026-10-05T11:13:14.129674+00:00",
-    "score": null,
-    "verdict": null,
-    "reasons": null
+    "score": 75,
+    "verdict": "likely legitimate",
+    "reasons": [
+      "Stefanini is a known global IT services firm",
+      "Deskside technician duties are classic technical support",
+      "Job description is generic but not suspicious"
+    ]
   },
   {
     "source": "adzuna",
@@ -11923,15 +11195,19 @@
     "candidate_role_id": "tech-support",
     "candidate_role_title": "Technical Support Executive",
     "candidate_category": "adjacent",
-    "role_id": null,
-    "role_title": null,
-    "category": null,
-    "role_confirmed": false,
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "role_confirmed": true,
     "matched_query": "IT Help Desk",
     "fetched_at": "2026-10-05T11:13:14.129755+00:00",
-    "score": null,
-    "verdict": null,
-    "reasons": null
+    "score": 75,
+    "verdict": "likely legitimate",
+    "reasons": [
+      "Duplicate posting from Stefanini with same legitimate profile",
+      "Help\u2011desk focus aligns with tech\u2011support role",
+      "No red\u2011flag language"
+    ]
   },
   {
     "source": "adzuna",
@@ -11947,15 +11223,19 @@
     "candidate_role_id": "sysadmin",
     "candidate_role_title": "System / Network Admin",
     "candidate_category": "adjacent",
-    "role_id": null,
-    "role_title": null,
-    "category": null,
-    "role_confirmed": false,
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "role_confirmed": true,
     "matched_query": "System Administrator",
     "fetched_at": "2026-10-05T11:13:15.018603+00:00",
-    "score": null,
-    "verdict": null,
-    "reasons": null
+    "score": 78,
+    "verdict": "likely legitimate",
+    "reasons": [
+      "Clear system administration responsibilities (Linux/Windows/VMware)",
+      "Requires ~1\u202fyear experience, suitable for fresher",
+      "Company appears legitimate and no scam cues"
+    ]
   },
   {
     "source": "adzuna",
@@ -13369,6 +12649,894 @@
     "role_confirmed": false,
     "matched_query": "MIS Reporting Executive",
     "fetched_at": "2026-10-06T07:39:10.094978+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "SOC Analyst",
+    "company": "Moonpay",
+    "location": "India",
+    "url": "https://jooble.org/jdp/6391938170043207521",
+    "description": "...on-site ~ Rotational Shifts ~24x7 follow-the-sun model About the Opportunity Join the Security Operations Center as a SOC Analyst , a critical frontline role responsible for protecting the organization against security threats and operational disruptions...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-01T00:00:00.0000000",
+    "key": "b39a7adb5ffe0493",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691104+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst, Big Data Analytics & Engineering",
+    "company": "Mastercard",
+    "location": "India",
+    "url": "https://jooble.org/jdp/5344069639324661856",
+    "description": "...unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Analyst, Big Data Analytics & Engineering About Mastercard Mastercard is a global technology company in the payments industry. Our...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-13T00:00:00.0000000",
+    "key": "50a78e2d89ca5739",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691222+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Business Analyst",
+    "company": "Unknown",
+    "location": "India",
+    "url": "https://jooble.org/jdp/3713899292938872220",
+    "description": "...global brands to deliver meaningful travel experiences. About the role We are looking for a curious, detail-oriented Business Analyst to join our Product team. You will lead discovery for initiatives ranging from focused enhancements to multi-team translating...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T01:43:36.1200000",
+    "key": "92bdeb09ec9850ff",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691255+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst, Big Data Analytics & Engineering",
+    "company": "Mastercard",
+    "location": "India",
+    "url": "https://jooble.org/jdp/6844156862681658146",
+    "description": "...unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Analyst, Big Data Analytics & Engineering Overview: About Mastercard Mastercard is a global technology leader in the payments...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-07T00:00:00.0000000",
+    "key": "245b10a87b0bcab3",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691290+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Cash Recon & Reporting - Analyst",
+    "company": "MUFG Bank, Ltd.",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-4681583095762521839",
+    "description": "...career. Join MUFG, where being inspired is expected and making a meaningful impact is rewarded. About the Role Position Title : Analyst Corporate Title: Analyst Reporting to : Vice President Location : MGS - Bengaluru Job Profile Position details We are...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-23T00:00:00.0000000",
+    "key": "fe78ce6e67db0e70",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691322+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst, Specialist, Operations, Trns Svcs-Trade Operations, Corporate Banking, Technology & Operations",
+    "company": "DBS Bank Ltd",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-8806719890821708234",
+    "description": "Business Function Group Technology and Operations (T&O) enables and empowers the bank with an efficient, nimble and resilient infrastructure through a strategic focus on productivity, quality & control, technology, people capability and innovation. In Group T&O, we manage...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-04T00:00:00.0000000",
+    "key": "c4bdff78bcb4a87c",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691369+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst, Specialist - Know Your Customer, Small Medium Enterprises",
+    "company": "DBS Bank Ltd",
+    "location": "India",
+    "url": "https://jooble.org/jdp/2591660791455760840",
+    "description": "Business Function Corporate and Investment Banking provides corporate customers with a full range of commercial banking products and services, including cash management services, current accounts, time deposits, trade finance, working capital finance, term loans and foreign...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-23T00:00:00.0000000",
+    "key": "b06ed5e9f5c61f00",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691405+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst, Specialist Campaign Management, Transformation and Data",
+    "company": "DBS Bank Ltd",
+    "location": "India",
+    "url": "https://jooble.org/jdp/7636789574659163410",
+    "description": "Job Purpose: 1. SPOC for Customer Communications for Marketing / Product / portfolio Teams for Consumer Banking Group 2. As a Campaign Ops Developer, you are accountable in executing of planned campaigns to help business teams to achieve business targets. Key accountabilities...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-07T00:00:00.0000000",
+    "key": "532267ce47459660",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691445+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst, Specialist, Credit Control Unit, Risk Management Group",
+    "company": "DBS Bank Ltd",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-2105862898004151007",
+    "description": "Job Purpose To be responsible for the credit administration related work. Key Accountabilities and Requirements Preparing/Checking of offer letters and documents in line with the credit conditions stipulated in Credit Memos Monitoring of post disbursal conditions...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-17T00:00:00.0000000",
+    "key": "0051ef6333fd21eb",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691480+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Capital Markets Research Analyst",
+    "company": "FT Partners",
+    "location": "India",
+    "url": "https://jooble.org/jdp/5881939320559601828",
+    "description": "...Position: Capital Markets Research Analyst Location: Gurgaon / New Delhi (Fully Remote) \u2014 NO US-BASED CANDIDATES Firm Overview Financial Technology Partners is one of the most successful boutique investment banks on Wall Street. Headquartered in San Francisco with...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-08T00:00:00.0000000",
+    "key": "f024952e20b9210c",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691540+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst",
+    "company": "MUFG Bank, Ltd.",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-4331533613520438489",
+    "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world\u2019s leading financial groups. Across the globe, we\u2019re 150,000 colleagues, striving to make a difference for every client, organization...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-25T00:00:00.0000000",
+    "key": "494fb0097f60e76f",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691578+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst",
+    "company": "MUFG Bank, Ltd.",
+    "location": "India",
+    "url": "https://jooble.org/jdp/4866804390087532805",
+    "description": "...Correspondent Banks/NBFI are critical . Checking client information through publicly / internally available sources which ae sourced by analyst. Prepare & check the KYC questionnaire, emails or calls with Client for outreach process Checking screening performed by...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-04T00:00:00.0000000",
+    "key": "83fe41380fccda8c",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691608+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Analyst, MGS FCOE Controls Testing",
+    "company": "MUFG Bank, Ltd.",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-8525174779548200683",
+    "description": "...career. Join MUFG, where being inspired is expected and making a meaningful impact is rewarded. About the Role Position Title: Analyst, FCOE GFCCT (Global Financial Crimes Compliance Testing) Corporate Title: Analyst Reporting to: Vice President, Regional...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-20T00:00:00.0000000",
+    "key": "61a05556a96a4f5f",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691641+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "ANALYST-INDIA KYC",
+    "company": "MUFG Bank, Ltd.",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-6433693502873367575",
+    "description": "...you to own your career. Join MUFG, where being inspired is expected and making a meaningful impact is rewarded. Position: KYC Analyst Location: Bangalore, India Legal Entity: MGS \u2013 India Responsibilities: Production of KYC profile to the highest quality...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-03T00:00:00.0000000",
+    "key": "971b0126842ba835",
+    "candidate_role_id": "soc-analyst",
+    "candidate_role_title": "SOC Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "SOC Analyst",
+    "fetched_at": "2026-10-06T07:53:26.691672+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Paid Product Tester",
+    "company": "Arroyo Media",
+    "location": "Model, CO",
+    "url": "https://jooble.org/jdp/481946269123546235",
+    "description": "...assignment. Up to $500 per week. Location: Remote (USA) Company: ProductReviewJobs Thank you for your interest in becoming a Paid Product Tester. This opportunity is for completing market research opportunities with independent brands via online or phone. Online studies...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-05T00:00:00.0000000",
+    "key": "ffeae99efbe472da",
+    "candidate_role_id": "vapt",
+    "candidate_role_title": "VAPT / Pentester",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-06T07:53:27.799966+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Electrical Designer",
+    "company": "Dynamics ATS",
+    "location": "Model, CO",
+    "url": "https://jooble.org/jdp/-381082667857654039",
+    "description": "Electrical Designer JOB-10047555 Anticipated Start Date September 21, 2026 Location Remote Type of Employment Contract Hire Employer Info They are North America\u2019s largest and most respected construction and engineering organization...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-11T14:20:37.8100000",
+    "key": "cad69f6797c08ca1",
+    "candidate_role_id": "vapt",
+    "candidate_role_title": "VAPT / Pentester",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-06T07:53:27.800018+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Junior Executive - Branch Operations (Instarem India Pvt. Ltd.)",
+    "company": "Nium",
+    "location": "India",
+    "url": "https://jooble.org/jdp/7295480935000759043",
+    "description": "...a primary focus on foreign currency cash delivery, cash handling, transaction processing, customer coordination, and regulatory compliance. The role ensures accurate and sure execution of forex cash delivery requests while maintaining operational efficiency, service quality...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T00:00:00.0000000",
+    "key": "8f95c31eccb43658",
+    "candidate_role_id": "grc",
+    "candidate_role_title": "GRC / Compliance Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "Compliance Analyst",
+    "fetched_at": "2026-10-06T07:53:32.356912+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Executive-Forex Operations (Instarem India Pvt. Ltd.)",
+    "company": "Nium",
+    "location": "India",
+    "url": "https://jooble.org/jdp/1462176595364743455",
+    "description": "...prepaid/refillable card, and remittance documents to clients, accurately processing forex transactions at the branch, and ensuring compliance with regulatory and internal policies. The role combines operational execution, cash handling, and customer service excellence...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T00:00:00.0000000",
+    "key": "89e04712b5b1429f",
+    "candidate_role_id": "grc",
+    "candidate_role_title": "GRC / Compliance Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "Compliance Analyst",
+    "fetched_at": "2026-10-06T07:53:32.356957+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Executive - Branch Operations (Instarem India Pvt. Ltd.)",
+    "company": "Nium",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-5736594685242369838",
+    "description": "...handling currency exchanges (buy/sell), remittances, and travel card issuance per RBI or central bank guidelines, while ensuring compliance with KYC/AML regulations and maintaining high standards of customer service and cash integrity. Key Responsibilities: Execute...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T00:00:00.0000000",
+    "key": "09197b9976e8919a",
+    "candidate_role_id": "grc",
+    "candidate_role_title": "GRC / Compliance Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "Compliance Analyst",
+    "fetched_at": "2026-10-06T07:53:32.356990+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Founder & CEO - AI Pathology",
+    "company": "Founders Factory",
+    "location": "India",
+    "url": "https://jooble.org/jdp/237873707216288910",
+    "description": "Founder & CEO \u2014 Slidestream Bringing high-quality pathology to the next billion patients Location: Bangalore (Bengaluru), India Start date: ASAP [More about the concept here.]( LV5k1kmPCqdT9hcpoC53l1Roz1JYLnkYU/edit?slide=id.g3f5248405d100#slide=id.g3f5248405d10_0...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T00:00:00.0000000",
+    "key": "0a845bbc572943e5",
+    "candidate_role_id": "grc",
+    "candidate_role_title": "GRC / Compliance Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "Compliance Analyst",
+    "fetched_at": "2026-10-06T07:53:32.357036+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Risk Operations Specialist",
+    "company": "Merge",
+    "location": "India",
+    "url": "https://jooble.org/jdp/5937218377957572249",
+    "description": "...KYB through ongoing monitoring, transaction reviews, investigations and escalation. The role will involve working closely with Compliance, Operations, Product, Engineering, Customer Success and Payments teams. Key responsibilities 1. KYC / KYB & Customer...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T00:00:00.0000000",
+    "key": "11750c1afddf13da",
+    "candidate_role_id": "grc",
+    "candidate_role_title": "GRC / Compliance Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "Compliance Analyst",
+    "fetched_at": "2026-10-06T07:53:32.357067+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Chief of Staff - India",
+    "company": "Valor Capital Group",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-5961401273953272345",
+    "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T00:00:00.0000000",
+    "key": "e862abec75b7361c",
+    "candidate_role_id": "grc",
+    "candidate_role_title": "GRC / Compliance Analyst",
+    "candidate_category": "core",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "Compliance Analyst",
+    "fetched_at": "2026-10-06T07:53:32.357101+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Site Reliability Engineer I",
+    "company": "Mastercard",
+    "location": "India",
+    "url": "https://jooble.org/jdp/5898814598423247422",
+    "description": "...theoretical knowledge and area best practices. \u2022 Support day-to-day system maintenance tasks and help gather requirements for technical... ...such as Python, Go, Bash, or similar. \u2022 Systems and Network Administration - Ability to configure, operate, and troubleshoot Linux/Unix...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T00:00:00.0000000",
+    "key": "851d2eb932dab967",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138533+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Associate, Release and Deployment Support , Site Reliability Engineering",
+    "company": "DBS Bank Ltd",
+    "location": "India",
+    "url": "https://jooble.org/jdp/5827815797704102263",
+    "description": "...regulated production environments with strict governance and audit controls. Technical Skills Operating Systems Strong foundation in Linux administration. Working knowledge of Unix and Windows operating systems. Basic shell scripting knowledge preferred....",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-28T00:00:00.0000000",
+    "key": "9a90db7e6c8ea164",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138604+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Site Reliability Engineer II",
+    "company": "Mastercard",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-5665788975681776696",
+    "description": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-18T00:00:00.0000000",
+    "key": "57b3b7921e5e0541",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138648+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "TechOps Engineer",
+    "company": "Differential Ventures",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-7909444710541527280",
+    "description": "...access to credit\u2014ultimately creating a more inclusive financial system. Trusted by more than 400 customers\u2014including industry... ...downtime and ensure a seamless user experience. Perform system administration tasks, including server configuration, maintenance, and...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-25T00:00:00.0000000",
+    "key": "25f8f86a63a3c29c",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138686+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "GTM Engineer, Growth Marketing",
+    "company": "Differential Ventures",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-6267912659921906668",
+    "description": "...achieve greater efficiency in risk management, and provide expanded access to credit\u2014ultimately creating a more inclusive financial system. Trusted by more than 400 customers\u2014including industry leaders like Better Mortgage, Brex, Enova, Nova Credit, PayPal, Plaid,...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-25T00:00:00.0000000",
+    "key": "bfc350ff7027c3f6",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138726+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Tech Help Engineer Lv1",
+    "company": "Unknown",
+    "location": "India",
+    "url": "https://jooble.org/jdp/3446389700585030679",
+    "description": "..., and effective troubleshooting. \u2022 Install, configure, and support hardware, software, mobile devices, and multiple operating systems (Windows, macOS, Linux, iOS, and Android). \u2022 Administer user accounts and enterprise platforms, including Active Directory, Microsoft...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-23T07:03:20.0600000",
+    "key": "265e4e5b75b50f2f",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138762+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Princ Sailpoint Engineer",
+    "company": "MoneyLion",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-1918335318936136709",
+    "description": "...duties (SoD). ~ Solid understanding of database concepts and experience with relational databases. ~ Experience with integrating systems and applications using APls and web services. ~ Excellent problem-solving skills with the ability to analyze complex IAM...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-08T00:00:00.0000000",
+    "key": "96761201a07816ce",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138793+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Cash Recon & Reporting - Administrator",
+    "company": "MUFG Bank, Ltd.",
+    "location": "India",
+    "url": "https://jooble.org/jdp/4091374527625911146",
+    "description": "...reconciliations. Process Improvement & Efficiency Initiatives \u2013 Support system testing, ad hoc reporting, and procedure documentation to... ..., enabling the identification of the relevant team agency and administrative managers involved in the transaction in OVS, T360, ACBS or...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-23T00:00:00.0000000",
+    "key": "a5bcb2d99727850a",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138833+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Administrator - Corporate Affairs",
+    "company": "MUFG Bank, Ltd.",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-9154752754371830160",
+    "description": "...Join MUFG, where being inspired is expected and making a meaningful impact is rewarded. About the role: Position Title: Administrator- Corporate Affairs Corporate Title: Administrator Reporting to: Vice President/ Director Location: Bangalore, BCIT park,...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-21T00:00:00.0000000",
+    "key": "35cbd2ad8115dbdd",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138865+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Software Integration Engineer-II",
+    "company": "Mastercard",
+    "location": "India",
+    "url": "https://jooble.org/jdp/4528997709284474468",
+    "description": "...where you are continuously learning more while growing your skills and career? Program Overview: Financial Solutions \u2013 Financial Systems: Financial Solutions provides Mastercard and its customers with a fully automated and scalable system that delivers timely pricing...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-15T00:00:00.0000000",
+    "key": "96fa5cef82d11f30",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138901+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Officer, Global Indian Client Acquisition Specialist, Consumer Banking Group",
+    "company": "DBS Bank Ltd",
+    "location": "India",
+    "url": "https://jooble.org/jdp/8431311447345305882",
+    "description": "Job Purpose The Global Indian Client Acquisition Specialist is responsible for acquiring Global Indian clients through digital channels, understanding their financial needs, effectively communicating DBS India's value proposition, and directing them to the most suitable...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-30T00:00:00.0000000",
+    "key": "289912fefb8d9b0f",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138937+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Associate, Customer Experience Reporting Specialist, Consumer Banking Group",
+    "company": "DBS Bank Ltd",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-977673980598290508",
+    "description": "...operations. Generate CE dashboards and performance reports for business and regulatory stakeholders. Extract data from source systems using defined business logic and reporting requirements. Validate reporting accuracy, completeness, and timeliness. Support...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-08-23T00:00:00.0000000",
+    "key": "7b088908d0184ce5",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.138974+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Officer, Customer Service Officer, Consumer Banking Group",
+    "company": "DBS Bank Ltd",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-241968232487534578",
+    "description": "Business Function As the leading bank in Asia, DBS Consumer Banking Group is in a unique position to help our customers realise their dreams and ambitions. As a market leader in the consumer banking business, DBS has a full spectrum of products and services, including...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-01T14:19:06.0570000",
+    "key": "66937bc0cdba7b39",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-10-06T07:53:37.139008+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Security Operation Center - VP",
+    "company": "MUFG Bank, Ltd.",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-2373556572791214448",
+    "description": "...non-attribution \u2022 Understanding of vulnerability scanning and reporting \u2022 Understanding of security event and incident handling \u2022 Understanding... ...should be included in the incident notification \u2022 Reviews the execution of incident response plans and makes necessary adjustments...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-02T00:00:00.0000000",
+    "key": "7833bef3ff09e67d",
+    "candidate_role_id": "mis-executive",
+    "candidate_role_title": "MIS Executive",
+    "candidate_category": "mis",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "MIS Reporting Executive",
+    "fetched_at": "2026-10-06T07:53:42.080921+00:00",
+    "score": null,
+    "verdict": null,
+    "reasons": null
+  },
+  {
+    "source": "jooble",
+    "title": "Executive Assistant to CTO",
+    "company": "OpenFX",
+    "location": "India",
+    "url": "https://jooble.org/jdp/-8437224496463375753",
+    "description": "...generation of cross-border payment systems for institutions. The team's execution has been exceptional, and we're scaling at a remarkable pace.... ...technical environment. You would be based in Bangalore and report to the COO. You will be the CTO's primary point of operational...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-09-21T00:00:00.0000000",
+    "key": "6ae1381a47cc3459",
+    "candidate_role_id": "mis-executive",
+    "candidate_role_title": "MIS Executive",
+    "candidate_category": "mis",
+    "role_id": null,
+    "role_title": null,
+    "category": null,
+    "role_confirmed": false,
+    "matched_query": "MIS Reporting Executive",
+    "fetched_at": "2026-10-06T07:53:42.080974+00:00",
     "score": null,
     "verdict": null,
     "reasons": null
