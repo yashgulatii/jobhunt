@@ -26,7 +26,7 @@ from datetime import datetime, timezone
 import requests
 
 from config import (
-    ROLES, CITIES, NATIONAL_LOCATION, ADZUNA_COUNTRY, JOOBLE_COUNTRY_SUBDOMAIN,
+    ROLES, CITIES, NATIONAL_LOCATION, ADZUNA_COUNTRY,
     MAX_DAYS_OLD, RESULTS_PER_QUERY, EXPERIENCE_MAX_YEARS, TITLE_EXCLUDE_KEYWORDS,
     DATA_FILE,
 )
@@ -135,10 +135,21 @@ def fetch_adzuna(query, location):
 def fetch_jooble(query, location):
     if not JOOBLE_API_KEY:
         return []
-    url = f"https://{JOOBLE_COUNTRY_SUBDOMAIN}.jooble.org/api/{JOOBLE_API_KEY}"
+    # Per Jooble's own API docs, the REST endpoint has no country subdomain —
+    # https://jooble.org/api/{key}, not https://in.jooble.org/api/{key}.
+    # That wrong subdomain (a leftover guess, never verified against the
+    # actual docs) is what was 403ing every single call: it's hitting
+    # Jooble's public site, not the authenticated API, so it rejects
+    # regardless of whether the key itself is valid. Country/city filtering
+    # happens via the "location" field in the request body instead.
+    url = f"https://jooble.org/api/{JOOBLE_API_KEY}"
     body = {"keywords": query, "location": location}
     try:
         resp = requests.post(url, json=body, timeout=20)
+        if resp.status_code == 403:
+            print(f"[jooble] 403 for {query!r}/{location} — if this persists after "
+                  f"the endpoint fix, the API key itself is likely invalid/revoked; "
+                  f"regenerate at https://jooble.org/api/about", file=sys.stderr)
         resp.raise_for_status()
         results = resp.json().get("jobs", [])
     except Exception as e:

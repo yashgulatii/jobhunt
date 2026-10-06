@@ -84,7 +84,6 @@ CITIES = ["Delhi", "Bangalore", "Hyderabad", "Chandigarh"]
 NATIONAL_LOCATION = "India"
 
 ADZUNA_COUNTRY = "in"              # Adzuna country code for India
-JOOBLE_COUNTRY_SUBDOMAIN = "in"    # Jooble's India subdomain
 
 MAX_DAYS_OLD = 5          # posting age window
 RESULTS_PER_QUERY = 20    # per API, per query/location combo

@@ -77,12 +77,24 @@ PROVIDERS = [
         "url": "https://openrouter.ai/api/v1/chat/completions",
         "key": OPENROUTER_API_KEY,
         "model": "openrouter/free",
+        # "openrouter/free" can route to a different underlying model each
+        # call, some of which reason by default. OpenRouter's unified
+        # reasoning API lets us ask any of them to keep it brief and
+        # exclude reasoning tokens from the response — a no-op on models
+        # that don't reason at all, so safe to send unconditionally.
+        "extra_body": {"reasoning": {"effort": "low", "exclude": True}},
     },
     {
         "name": "groq",
         "url": "https://api.groq.com/openai/v1/chat/completions",
         "key": GROQ_API_KEY,
         "model": "openai/gpt-oss-120b",  # Groq's own recommended replacement for the retired model
+        # gpt-oss-120b is a reasoning model — "low" keeps its internal
+        # chain-of-thought short instead of burning the token budget on it
+        # (the model requires one of low/medium/high; "none"/omitted 400s),
+        # and "parsed" has Groq split reasoning into its own field instead
+        # of mixing it into `content` ahead of the actual JSON answer.
+        "extra_body": {"reasoning_effort": "low", "reasoning_format": "parsed"},
     },
 ]
 
@@ -157,10 +169,12 @@ def build_batch_prompt(batch):
 
 
 def call_chat(provider, messages, max_tokens):
+    body = {"model": provider["model"], "messages": messages, "max_tokens": max_tokens, "temperature": 0.1}
+    body.update(provider.get("extra_body", {}))
     resp = requests.post(
         provider["url"],
         headers={"Authorization": f"Bearer {provider['key']}", "content-type": "application/json"},
-        json={"model": provider["model"], "messages": messages, "max_tokens": max_tokens, "temperature": 0.1},
+        json=body,
         timeout=45,
     )
     if resp.status_code == 429:
@@ -172,12 +186,56 @@ def call_chat(provider, messages, max_tokens):
             f"catalog and update PROVIDERS in score_jobs.py."
         )
     resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"].strip()
+    content = resp.json()["choices"][0]["message"].get("content")
+    if not content:
+        raise ValueError("empty/null content in response (model likely returned only reasoning tokens)")
+    return content.strip()
+
+
+def extract_json_array(text):
+    """Find the first balanced [...] block in text, ignoring anything before
+    or after it. Reasoning models (gpt-oss, and whatever OpenRouter's
+    "openrouter/free" meta-route happens to pick that run) routinely wrap
+    the actual answer in chain-of-thought preamble or trailing commentary
+    despite being told to return ONLY JSON — a plain json.loads() on the
+    raw text breaks on that every time ("Expecting value" from leading
+    junk, "Extra data" from trailing junk). Bracket-matching instead of
+    trusting the model's formatting discipline is what makes this resilient
+    to whichever model either provider happens to be running, not just the
+    two specific ones that broke this exact way today.
+    """
+    start = text.find("[")
+    if start == -1:
+        raise ValueError("no '[' found in response")
+    depth = 0
+    in_string = False
+    escape = False
+    for i in range(start, len(text)):
+        ch = text[i]
+        if in_string:
+            if escape:
+                escape = False
+            elif ch == "\\":
+                escape = True
+            elif ch == '"':
+                in_string = False
+            continue
+        if ch == '"':
+            in_string = True
+        elif ch == "[":
+            depth += 1
+        elif ch == "]":
+            depth -= 1
+            if depth == 0:
+                return text[start:i + 1]
+    raise ValueError("no balanced ']' found — response likely truncated (increase max_tokens)")
 
 
 def parse_json_array(text, expected_len):
-    cleaned = re.sub(r"^```(json)?|```$", "", text.strip(), flags=re.MULTILINE).strip()
-    parsed = json.loads(cleaned)
+    if not text:
+        raise ValueError("empty response content")
+    block = extract_json_array(text)
+    parsed = json.loads(block)
     if not isinstance(parsed, list) or len(parsed) != expected_len:
         raise ValueError(f"expected array of {expected_len}, got {type(parsed)} len={len(parsed) if isinstance(parsed, list) else '?'}")
     return parsed
@@ -190,7 +248,11 @@ def score_batch(batch, system_prompt):
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": build_batch_prompt(batch)},
     ]
-    max_tokens = 150 * len(batch)  # scales with batch size, not a fixed guess
+    # Even at "low" reasoning effort, a reasoning model spends tokens on
+    # chain-of-thought before the final JSON — 150/job was sized for a
+    # plain instruct model and left no headroom, which is exactly what
+    # produced the truncated/incomplete JSON in the failures above.
+    max_tokens = 400 * len(batch)
 
     for provider in PROVIDERS:
         if not provider["key"]:
