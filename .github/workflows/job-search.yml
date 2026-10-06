@@ -33,11 +33,23 @@ jobs:
         run: python fetch_jobs.py
 
       - name: Score postings for legitimacy
+        continue-on-error: true   # a misconfigured/rate-limited provider must not
+                                   # block committing whatever fetch_jobs.py already
+                                   # found — but the step still shows a warning
+                                   # triangle in the run list so it's never silent.
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python score_jobs.py
 
       - name: Commit updated data
+        if: always()   # continue-on-error alone isn't enough — GitHub's default
+                        # `if: success()` on this step still skips it when the
+                        # previous step's outcome was failure, even with
+                        # continue-on-error set on that step. always() runs this
+                        # unconditionally (short of the job being cancelled) so
+                        # whatever fetch_jobs.py found is never lost to a scoring
+                        # error downstream.
         run: |
           git config user.name "job-search-bot"
           git config user.email "actions@users.noreply.github.com"
