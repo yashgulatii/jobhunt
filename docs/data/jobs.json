@@ -22777,5 +22777,31 @@
       "requires 6-8 years experience, not suitable for fresher",
       "high seniority expectations"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Threat Research Engineer",
+    "company": "GitLab",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5932376785?utm_medium=api&utm_source=61450a73",
+    "description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-17T21:28:37Z",
+    "key": "1739641c1a17e426",
+    "candidate_role_id": "vapt",
+    "candidate_role_title": "VAPT / Pentester",
+    "candidate_category": "core",
+    "role_id": "cti",
+    "role_title": "Cyber Threat Intel Analyst",
+    "category": "core",
+    "role_confirmed": true,
+    "matched_query": "Penetration Tester",
+    "fetched_at": "2026-10-18T08:21:48.635839+00:00",
+    "score": 85,
+    "verdict": "likely legitimate",
+    "reasons": [
+      "GitLab is a well\u2011known company; job title aligns with threat intel work; no scam indicators"
+    ]
   }
 ]
