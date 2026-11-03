@@ -37017,5 +37017,31 @@
       "ExxonMobil business systems specialist deals with system support and administration",
       "Well\u2011known employer, no scam indicators"
     ]
+  },
+  {
+    "source": "adzuna",
+    "title": "Consultant | SF- EC Payroll | Delhi | HR Transformation",
+    "company": "Arminus",
+    "location": "Delhi, India",
+    "url": "https://www.adzuna.in/details/5947216886?utm_medium=api&utm_source=61450a73",
+    "description": "Location- Delhi No of positions 1 Module Work from client office daily following client's office timings and calendar Desired qualifications 4 6 years of hands-on experience in SAP BASIS administration, system monitoring, and technical support. Experience in SAP system copies, client copies, system refreshes, and post-refresh activities across multiple landscapes. Hands-on experience in SAP landscape management, including Development, Quality, and Production environments. Knowledge of SAP syste\u2026",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-10-31T00:05:13Z",
+    "key": "bba8b0d4d0e70116",
+    "candidate_role_id": "sysadmin",
+    "candidate_role_title": "System / Network Admin",
+    "candidate_category": "adjacent",
+    "role_id": "sysadmin",
+    "role_title": "System / Network Admin",
+    "category": "adjacent",
+    "role_confirmed": true,
+    "matched_query": "System Administrator",
+    "fetched_at": "2026-11-03T11:25:42.574528+00:00",
+    "score": 30,
+    "verdict": "use caution",
+    "reasons": [
+      "Requires 4-6 years SAP BASIS experience, far beyond fresher level; still a legitimate sysadmin posting"
+    ]
   }
 ]
