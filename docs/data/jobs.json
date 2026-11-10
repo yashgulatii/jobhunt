@@ -44956,5 +44956,60 @@
     "reasons": [
       "Company appears legitimate but role demands experienced system administration skills, likely beyond fresher level"
     ]
+  },
+  {
+    "source": "jooble",
+    "title": "On-Site Laptop & Desktop Hardware Technician",
+    "company": "BC Tech Pro",
+    "location": "Ann Arbor, MI",
+    "url": "https://jooble.org/jdp/-1239967154071821420",
+    "description": "...technology service company is looking for a Computer Field Technician to perform hardware repairs and installations on laptops and desktops. This role requires prior experience with hardware, a valid driver's license, and reliable transportation. Technicians will...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-11-06T00:00:00.0000000",
+    "key": "32425410e10f0123",
+    "candidate_role_id": "tech-support",
+    "candidate_role_title": "Technical Support Executive",
+    "candidate_category": "adjacent",
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "role_confirmed": true,
+    "matched_query": "Desktop Support Engineer",
+    "fetched_at": "2026-11-10T11:53:06.724696+00:00",
+    "score": 85,
+    "verdict": "likely legitimate",
+    "reasons": [
+      "Hardware field technician providing on\u2011site repair and installation",
+      "Requires basic technical skills suitable for a fresher"
+    ]
+  },
+  {
+    "source": "jooble",
+    "title": "Computer Field Technician",
+    "company": "BC Tech Pro",
+    "location": "Ann Arbor, MI",
+    "url": "https://jooble.org/jdp/-1982325709192605263",
+    "description": "...work with us! Job Description This is a Computer Field Technician Position doing hardware repairs and installations on laptop and desktop units. To be successful in this position, you must have prior experience with laptop and desktop hardware. This is a 1099/per call...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-11-06T00:00:00.0000000",
+    "key": "bcc57e5168248de9",
+    "candidate_role_id": "tech-support",
+    "candidate_role_title": "Technical Support Executive",
+    "candidate_category": "adjacent",
+    "role_id": "tech-support",
+    "role_title": "Technical Support Executive",
+    "category": "adjacent",
+    "role_confirmed": true,
+    "matched_query": "Desktop Support Engineer",
+    "fetched_at": "2026-11-10T11:53:06.724997+00:00",
+    "score": 65,
+    "verdict": "use caution",
+    "reasons": [
+      "1099 contractor role, not full-time employment",
+      "Requires prior hardware experience, may not be fresher-friendly",
+      "Company BC Tech Pro appears legitimate but contract nature warrants caution"
+    ]
   }
 ]
