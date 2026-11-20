@@ -55585,5 +55585,31 @@
       "It explicitly mentions freshers with 1\u20132 years of experience, making it reasonably fresher-appropriate",
       "No obvious scam signals such as fees, urgent pressure, or requests for sensitive documents"
     ]
+  },
+  {
+    "source": "jooble",
+    "title": "Quality Assurance Analyst",
+    "company": "ORGAN PROCUREMENT AGENCY OF MICHIGAN",
+    "location": "Ann Arbor, MI",
+    "url": "https://jooble.org/jdp/9100410455665121688",
+    "description": "Summary In alignment with Gift of Life Michigan's core purpose and core values, the Quality Assurance Analyst serves as the department's quality liaison for quality assurance activities, donor record review, regulatory reporting, patient safety, and quality improvement...",
+    "salary_min": null,
+    "salary_max": null,
+    "posted": "2026-11-17T00:00:00.0000000",
+    "key": "c0fbb1edf4b05020",
+    "candidate_role_id": "it-auditor",
+    "candidate_role_title": "IT Auditor",
+    "candidate_category": "adjacent",
+    "role_id": "qa-engineer",
+    "role_title": "QA / Test Engineer",
+    "category": "adjacent",
+    "role_confirmed": true,
+    "matched_query": "IS Auditor",
+    "fetched_at": "2026-11-20T12:16:28.958126+00:00",
+    "score": 85,
+    "verdict": "likely legitimate",
+    "reasons": [
+      "Clear QA testing responsibilities, typical fresher role, company appears legitimate"
+    ]
   }
 ]
